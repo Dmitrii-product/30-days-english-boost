@@ -1,0 +1,182 @@
+[
+    {
+        "word": "Pragmatic",
+        "level": "C1",
+        "definition": "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
+        "example": "As a product manager, she took a pragmatic approach to the roadmap, prioritizing quick wins over complex features."
+    },
+    {
+        "word": "Discrepancy",
+        "level": "C1",
+        "definition": "An illogical or surprising lack of compatibility between two or more facts.",
+        "example": "The analyst found a significant discrepancy between the projected GDP growth and the actual manufacturing output."
+    },
+    {
+        "word": "Exacerbate",
+        "level": "C1",
+        "definition": "To make a problem, bad situation, or negative feeling worse.",
+        "example": "The sudden increase in interest rates served to exacerbate the existing debt crisis in the region."
+    },
+    {
+        "word": "Ambiguous",
+        "level": "C1",
+        "definition": "Open to more than one interpretation; not having one obvious meaning.",
+        "example": "The initial project requirements were too ambiguous, leading to several rounds of unnecessary revisions."
+    },
+    {
+        "word": "Feasible",
+        "level": "C1",
+        "definition": "Possible to do easily or conveniently.",
+        "example": "The technical team concluded that integrating the legacy system with the new API was not feasible within the current budget."
+    },
+    {
+        "word": "Implicit",
+        "level": "C1",
+        "definition": "Suggested though not directly expressed.",
+        "example": "There was an implicit understanding between the two partners that the merger would benefit both sectors equally."
+    },
+    {
+        "word": "Mitigate",
+        "level": "C1",
+        "definition": "To make something less severe, serious, or painful.",
+        "example": "The company implemented new security protocols to mitigate the risk of data breaches."
+    },
+    {
+        "word": "Paradigm",
+        "level": "C1",
+        "definition": "A typical example or pattern of something; a model.",
+        "example": "The shift toward remote work represents a major paradigm shift in modern corporate culture."
+    },
+    {
+        "word": "Quantifiable",
+        "level": "C1",
+        "definition": "Able to be expressed or measured as a quantity.",
+        "example": "The success of the new marketing campaign was easily quantifiable through the surge in user engagement."
+    },
+    {
+        "word": "Robust",
+        "level": "C1",
+        "definition": "Sturdy in construction; (of a process or system) able to withstand or overcome adverse conditions.",
+        "example": "We need a robust framework to handle the high volume of traffic expected during the product launch."
+    },
+    {
+        "word": "Synthesize",
+        "level": "C1",
+        "definition": "To combine a number of things into a coherent whole.",
+        "example": "The researcher had to synthesize data from multiple centuries to create a complete history of the trade route."
+    },
+    {
+        "word": "Tentative",
+        "level": "C1",
+        "definition": "Not certain or fixed; provisional.",
+        "example": "We have a tentative schedule for the next release, but it depends on the final QA testing."
+    },
+    {
+        "word": "Underlying",
+        "level": "C1",
+        "definition": "Significant as a cause or basis of something but not necessarily manifest or obvious.",
+        "example": "The underlying cause of the market volatility was a lack of investor confidence in the tech sector."
+    },
+    {
+        "word": "Viable",
+        "level": "C1",
+        "definition": "Capable of working successfully; feasible.",
+        "example": "Without a clear monetization strategy, the startup was no longer a viable investment."
+    },
+    {
+        "word": "Yield",
+        "level": "C1",
+        "definition": "To produce or provide (a natural, agricultural, or industrial product).",
+        "example": "The new chip manufacturing process is expected to yield a 20% increase in efficiency."
+    },
+    {
+        "word": "Abstain",
+        "level": "C1",
+        "definition": "Restrain oneself from doing or enjoying something.",
+        "example": "Several board members chose to abstain from voting on the controversial proposal."
+    },
+    {
+        "word": "Benevolent",
+        "level": "C1",
+        "definition": "Well meaning and kindly.",
+        "example": "The organization’s benevolent activities have helped thousands of students access higher education."
+    },
+    {
+        "word": "Collaborate",
+        "level": "C1",
+        "definition": "Work jointly on an activity or project.",
+        "example": "Engineers from three different countries will collaborate on the design of the new optical chip."
+    },
+    {
+        "word": "Diligent",
+        "level": "C1",
+        "definition": "Having or showing care and conscientiousness in one's work or duties.",
+        "example": "After a diligent search of the archives, the historian found the missing document."
+    },
+    {
+        "word": "Emulate",
+        "level": "C1",
+        "definition": "Match or surpass (a person or achievement), typically by imitation.",
+        "example": "Smaller tech firms often try to emulate the agile product management style used by industry leaders."
+    },
+    {
+        "word": "Fortuitous",
+        "level": "C1",
+        "definition": "Happening by a lucky chance; fortunate.",
+        "example": "The timing of the investment was fortuitous, occurring just before the sector’s rapid growth."
+    },
+    {
+        "word": "Hypothetical",
+        "level": "C1",
+        "definition": "Based on or serving as a hypothesis.",
+        "example": "The speaker used a hypothetical scenario to explain the potential dangers of unregulated AI."
+    },
+    {
+        "word": "Inherent",
+        "level": "C1",
+        "definition": "Existing in something as a permanent, essential, or characteristic attribute.",
+        "example": "There are inherent risks involved in shifting production to a new geographic region."
+    },
+    {
+        "word": "Judicious",
+        "level": "C1",
+        "definition": "Having, showing, or done with good judgment or sense.",
+        "example": "A judicious use of resources allowed the team to finish the project ahead of schedule."
+    },
+    {
+        "word": "Lucrative",
+        "level": "C1",
+        "definition": "Producing a great deal of profit.",
+        "example": "The export of high-tech components proved to be a lucrative venture for the local economy."
+    },
+    {
+        "word": "Meticulous",
+        "level": "C1",
+        "definition": "Showing great attention to detail; very careful and precise.",
+        "example": "The developer was meticulous in documenting every line of code for the open-source project."
+    },
+    {
+        "word": "Novel",
+        "level": "C1",
+        "definition": "New or unusual in an interesting way.",
+        "example": "The team proposed a novel solution to the problem of heat dissipation in optical chips."
+    },
+    {
+        "word": "Obscure",
+        "level": "C1",
+        "definition": "Not discovered or known about; uncertain.",
+        "example": "The origins of the manuscript remain obscure despite decades of intense study."
+    },
+    {
+        "word": "Prerequisite",
+        "level": "C1",
+        "definition": "A thing that is required as a prior condition for something else to happen or exist.",
+        "example": "A deep understanding of data structures is a prerequisite for advanced software engineering roles."
+    },
+    {
+        "word": "Resilient",
+        "level": "C1",
+        "definition": "Able to withstand or recover quickly from difficult conditions.",
+        "example": "The city proved resilient in the face of economic hardship, bouncing back within just a few years."
+    }
+]
