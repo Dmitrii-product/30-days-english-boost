@@ -3,7 +3,7 @@ name: Daily C1 Word Bot
 on:
   schedule:
     # This runs at 04:00 UTC (9:00 AM Tashkent time)
-    - cron: '0 4 * * *'
+    - cron: "0 6 * * *"
   workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: "3.9"
 
       - name: Install dependencies
         run: |
