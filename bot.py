@@ -1,36 +1,175 @@
 import json
 import random
-import asyncio
-from telegram import Bot
 import os
+import datetime
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import (
+    ApplicationBuilder,
+    CommandHandler,
+    CallbackQueryHandler,
+    ContextTypes,
+)
+import db
+from dotenv import load_dotenv
+import threading
+from flask import Flask
 
-# Now the script looks for the variables in the GitHub environment
+load_dotenv()
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is running!"
+
+def run_web_server():
+    port = int(os.environ.get('PORT', 5000))
+    # Disable flask logs to keep bot terminal clean
+    import logging
+    logging.getLogger('werkzeug').setLevel(logging.ERROR)
+    app.run(host='0.0.0.0', port=port)
+
+# Get token from environment
 TOKEN = os.getenv('TOKEN')
-CHAT_ID = os.getenv('CHAT_ID')
+if not TOKEN:
+    print("Warning: TOKEN environment variable not set.")
 
+LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
-async def send_daily_word():
-    # 1. Load the words from your JSON file
-    with open('words.json', 'r') as f:
-        words = json.load(f)
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = update.effective_chat.id
+    db.add_or_update_user(user_id, "C1") # Default to C1
+    
+    keyboard = [
+        [InlineKeyboardButton(lvl, callback_data=f"level_{lvl}") for lvl in LEVELS[:3]],
+        [InlineKeyboardButton(lvl, callback_data=f"level_{lvl}") for lvl in LEVELS[3:]]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    
+    await update.message.reply_text(
+        "👋 Welcome to the Daily English Boost Bot!\n\n"
+        "I'll send you a new English word every day.\n"
+        "Please select your target English level below:",
+        reply_markup=reply_markup
+    )
 
-    # 2. Pick a random word
-    entry = random.choice(words)
+async def level_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = update.effective_chat.id
+    current_level = db.get_user_level(user_id) or "Not set"
+    
+    keyboard = [
+        [InlineKeyboardButton(lvl, callback_data=f"level_{lvl}") for lvl in LEVELS[:3]],
+        [InlineKeyboardButton(lvl, callback_data=f"level_{lvl}") for lvl in LEVELS[3:]]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    
+    await update.message.reply_text(
+        f"Your current level is: *{current_level}*\n\n"
+        "Choose a new level:",
+        reply_markup=reply_markup,
+        parse_mode='Markdown'
+    )
 
-    # 3. Format the message with Markdown
+async def send_single_word(context: ContextTypes.DEFAULT_TYPE, chat_id: int, level: str):
+    with open('words.json', 'r', encoding='utf-8') as f:
+        all_words = json.load(f)
+    level_words = [w for w in all_words if w.get('level') == level]
+    if not level_words:
+        return
+    entry = random.choice(level_words)
     message = (
-        f"🌟 *C1 Word of the Day: {entry['word']}*\n\n"
+        f"🌟 *{level} Word of the Day: {entry['word']}*\n\n"
         f"📚 *Definition:* {entry['definition']}\n\n"
         f"📝 *Example:* _{entry['example']}_\n\n"
         f"--- \n"
-        f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence about your current project?"
+        f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence today?"
     )
+    try:
+        await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
+    except Exception as e:
+        print(f"Failed to send to {chat_id}: {e}")
 
-    # 4. Send the message
-    bot = Bot(token=TOKEN)
-    async with bot:
-        await bot.send_message(chat_id=CHAT_ID, text=message, parse_mode='Markdown')
-        print(f"Sent: {entry['word']}")
+async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    
+    data = query.data
+    if data.startswith("level_"):
+        new_level = data.split("_")[1]
+        user_id = update.effective_chat.id
+        db.add_or_update_user(user_id, new_level)
+        await query.edit_message_text(f"✅ Your level has been updated to *{new_level}*!\nYou'll receive words for this level daily.", parse_mode='Markdown')
+        await send_single_word(context, user_id, new_level)
 
-if __name__ == "__main__":
-    asyncio.run(send_daily_word())
+async def send_daily_words(context: ContextTypes.DEFAULT_TYPE):
+    with open('words.json', 'r', encoding='utf-8') as f:
+        all_words = json.load(f)
+    
+    users = db.get_all_users()
+    if not users:
+        return
+    
+    # Group users by level to save processing time
+    users_by_level = {lvl: [] for lvl in LEVELS}
+    for chat_id, level in users:
+        if level in users_by_level:
+            users_by_level[level].append(chat_id)
+            
+    # For each level, pick a random word
+    for level, chat_ids in users_by_level.items():
+        if not chat_ids:
+            continue
+            
+        level_words = [w for w in all_words if w.get('level') == level]
+        if not level_words:
+            # Fallback if no words for this level
+            continue
+            
+        entry = random.choice(level_words)
+        message = (
+            f"🌟 *{level} Word of the Day: {entry['word']}*\n\n"
+            f"📚 *Definition:* {entry['definition']}\n\n"
+            f"📝 *Example:* _{entry['example']}_\n\n"
+            f"--- \n"
+            f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence today?"
+        )
+        
+        for chat_id in chat_ids:
+            try:
+                await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
+            except Exception as e:
+                print(f"Failed to send to {chat_id}: {e}")
+
+async def test_send(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Hidden command to test sending a word immediately
+    await send_daily_words(context)
+    await update.message.reply_text("Sent daily words to all users.")
+
+def main():
+    db.init_db()
+    
+    if not TOKEN:
+        print("Please set the TOKEN environment variable before running.")
+        return
+        
+    # Start web server in a background thread
+    threading.Thread(target=run_web_server, daemon=True).start()
+    print("Flask web server started in background.")
+
+    application = ApplicationBuilder().token(TOKEN).build()
+    
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(CommandHandler("level", level_command))
+    application.add_handler(CommandHandler("test", test_send))
+    application.add_handler(CallbackQueryHandler(button_callback))
+
+    # Schedule daily message at 09:00 Tashkent time (UTC+5), which is 04:00 UTC.
+    t = datetime.time(hour=4, minute=0, tzinfo=datetime.timezone.utc)
+    # The JobQueue runs jobs based on UTC by default if no timezone is specified in datetime.
+    application.job_queue.run_daily(send_daily_words, time=t)
+    
+    print("Bot is starting. Press Ctrl+C to stop.")
+    application.run_polling()
+
+if __name__ == '__main__':
+    main()

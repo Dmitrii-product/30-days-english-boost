@@ -1,182 +1,1802 @@
 [
     {
-        "word": "Pragmatic",
-        "level": "C1",
-        "definition": "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
-        "example": "As a product manager, she took a pragmatic approach to the roadmap, prioritizing quick wins over complex features."
+        "word": "Apple",
+        "level": "A1",
+        "definition": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+        "example": "I learned the word 'apple' today."
     },
     {
-        "word": "Discrepancy",
-        "level": "C1",
-        "definition": "An illogical or surprising lack of compatibility between two or more facts.",
-        "example": "The analyst found a significant discrepancy between the projected GDP growth and the actual manufacturing output."
+        "word": "Book",
+        "level": "A1",
+        "definition": "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+        "example": "He was frustrated because he couldn't find anything about dinosaurs in the book."
     },
     {
-        "word": "Exacerbate",
-        "level": "C1",
-        "definition": "To make a problem, bad situation, or negative feeling worse.",
-        "example": "The sudden increase in interest rates served to exacerbate the existing debt crisis in the region."
+        "word": "Cat",
+        "level": "A1",
+        "definition": "An animal of the family Felidae:",
+        "example": "I learned the word 'cat' today."
+    },
+    {
+        "word": "Dog",
+        "level": "A1",
+        "definition": "A mammal, Canis familiaris or Canis lupus familiaris, that has been domesticated for thousands of years, of highly variable appearance due to human breeding.",
+        "example": "The dog barked all night long."
+    },
+    {
+        "word": "Elephant",
+        "level": "A1",
+        "definition": "Used when counting to add length, so that each count takes about one second",
+        "example": "Let's play hide and seek. i'll count. one elephant, two elephant, three elephant..."
+    },
+    {
+        "word": "Fish",
+        "level": "A1",
+        "definition": "A cold-blooded vertebrate animal that lives in water, moving with the help of fins and breathing with gills.",
+        "example": "Salmon is a fish."
+    },
+    {
+        "word": "Girl",
+        "level": "A1",
+        "definition": "One's daughter.",
+        "example": "Your girl turned up on our doorstep."
+    },
+    {
+        "word": "House",
+        "level": "A1",
+        "definition": "A structure built or serving as an abode of human beings.",
+        "example": "This is my house and my family's ancestral home."
+    },
+    {
+        "word": "Ice",
+        "level": "A1",
+        "definition": "To put out a team for a match.",
+        "example": "Milton keynes have yet to ice a team this season"
+    },
+    {
+        "word": "Juice",
+        "level": "A1",
+        "definition": "A liquid from a plant, especially fruit.",
+        "example": "Squeeze the orange and some juice will come out."
+    },
+    {
+        "word": "Kite",
+        "level": "A1",
+        "definition": "A A1 level English word.",
+        "example": "I learned the word 'kite' today."
+    },
+    {
+        "word": "Lion",
+        "level": "A1",
+        "definition": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
+        "example": "Tigers and lions share a common ancestor from a few million years ago."
+    },
+    {
+        "word": "Monkey",
+        "level": "A1",
+        "definition": "Any member of the clade Simiiformes not also of the clade Hominoidea containing humans and apes, from which they are usually, but not universally, distinguished by smaller size, a tail, and cheek pouches.",
+        "example": "He had been visiting an area zoo when a monkey swung from its tree perch, swiped his glasses and hurled them into a hippo hole."
+    },
+    {
+        "word": "Nut",
+        "level": "A1",
+        "definition": "A hard-shelled seed.",
+        "example": "There are many sort of nuts: peanuts, cashews, pistachios, brazil nuts and more."
+    },
+    {
+        "word": "Orange",
+        "level": "A1",
+        "definition": "An evergreen tree of the genus Citrus such as Citrus sinensis.",
+        "example": "I learned the word 'orange' today."
+    },
+    {
+        "word": "Pig",
+        "level": "A1",
+        "definition": "Any of several intelligent mammalian species of the genus Sus, having cloven hooves, bristles and a nose adapted for digging; especially the domesticated animal Sus scrofa.",
+        "example": "The man kept a pen with two pigs that he fed from carrots to cabbage."
+    },
+    {
+        "word": "Queen",
+        "level": "A1",
+        "definition": "A female monarch. Example: Queen Victoria.",
+        "example": "I learned the word 'queen' today."
+    },
+    {
+        "word": "Rabbit",
+        "level": "A1",
+        "definition": "A mammal of the family Leporidae, with long ears, long hind legs and a short, fluffy tail.",
+        "example": "The pioneers survived by eating the small game they could get: rabbits, squirrels and occasionally a raccoon."
+    },
+    {
+        "word": "Sun",
+        "level": "A1",
+        "definition": "To expose to the warmth and radiation of the sun.",
+        "example": "Beautiful bodies lying on the beach, sunning their bronzed limbs."
+    },
+    {
+        "word": "Tree",
+        "level": "A1",
+        "definition": "A perennial woody plant, not exactly defined, but differentiated from a shrub by its larger size (typically over a few meters in height) or growth habit, usually having a single (or few) main axis or trunk unbranched for some distance above the ground and a head of branches and foliage.",
+        "example": "Birds have a nest in a tree in the garden."
+    },
+    {
+        "word": "Umbrella",
+        "level": "A1",
+        "definition": "Cloth-covered frame used for protection against rain or sun.",
+        "example": "Quick, grab that umbrella before you get rained on!"
+    },
+    {
+        "word": "Van",
+        "level": "A1",
+        "definition": "A covered vehicle used for carrying goods or people, usually roughly cuboid in shape, longer and higher than a car but smaller than a truck/lorry.",
+        "example": "The van sped down the road."
+    },
+    {
+        "word": "Water",
+        "level": "A1",
+        "definition": "A substance (of molecular formula H₂O) found at room temperature and pressure as a clear liquid; it is present naturally as rain, and found in rivers, lakes and seas; its solid form is ice and its gaseous form is steam.",
+        "example": "By the action of electricity, the water was resolved into its two parts, oxygen and hydrogen."
+    },
+    {
+        "word": "Xylophone",
+        "level": "A1",
+        "definition": "Any musical instrument (percussion idiophone) made of wooden slats graduated so as to make the sounds of the scale when struck with a small drumstick-like mallet; the standard Western concert xylophone or one of its derivatives.",
+        "example": "All i know how to play on my xylophone is \"mary had a little lamb\". would you like to hear it?"
+    },
+    {
+        "word": "Yellow",
+        "level": "A1",
+        "definition": "Related to the Liberal Democrats.",
+        "example": "2012 march 2, andrew grice, \"yellow rebels take on clegg over nhs 'betrayal'\", the independent"
+    },
+    {
+        "word": "Zebra",
+        "level": "A1",
+        "definition": "Any of three species of genus Equus: E. grevyi, E. quagga, or E. zebra, all with black and white stripes and native to Africa.",
+        "example": "I learned the word 'zebra' today."
+    },
+    {
+        "word": "Boy",
+        "level": "A1",
+        "definition": "A young male.",
+        "example": "Kate is dating a boy named jim."
+    },
+    {
+        "word": "Car",
+        "level": "A1",
+        "definition": "A wheeled vehicle that moves independently, with at least three wheels, powered mechanically, steered by a driver and mostly for personal transportation.",
+        "example": "She drove her car to the mall."
+    },
+    {
+        "word": "Door",
+        "level": "A1",
+        "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
+        "example": "I knocked on the vice president's door"
+    },
+    {
+        "word": "Egg",
+        "level": "A1",
+        "definition": "The egg of a domestic fowl (especially a hen) or its contents, used as food.",
+        "example": "I also determine the minimal amount of egg required to make good mayonnaise."
+    },
+    {
+        "word": "Flower",
+        "level": "A1",
+        "definition": "A plant that bears flowers, especially a plant that is small and lacks wood.",
+        "example": "We transplanted the flowers to a larger pot."
+    },
+    {
+        "word": "Grape",
+        "level": "A1",
+        "definition": "A small, round, smooth-skinned edible fruit, usually purple, red, or green, that grows in bunches on vines of genus Vitis.",
+        "example": "I learned the word 'grape' today."
+    },
+    {
+        "word": "Hat",
+        "level": "A1",
+        "definition": "A covering for the head, often in the approximate form of a cone or a cylinder closed at its top end, and sometimes having a brim and other decoration.",
+        "example": "I learned the word 'hat' today."
+    },
+    {
+        "word": "Island",
+        "level": "A1",
+        "definition": "An entity surrounded by other entities that are very different from itself.",
+        "example": "An island of colors on a butterfly's wing"
+    },
+    {
+        "word": "Jam",
+        "level": "A1",
+        "definition": "Blockage, congestion.",
+        "example": "A traffic jam caused us to miss the game's first period."
+    },
+    {
+        "word": "Key",
+        "level": "A1",
+        "definition": "A crucial step or requirement.",
+        "example": "The key to solving this problem is persistence."
+    },
+    {
+        "word": "Leaf",
+        "level": "A1",
+        "definition": "A sheet of any substance beaten or rolled until very thin.",
+        "example": "Gold leaf"
+    },
+    {
+        "word": "Mouse",
+        "level": "A1",
+        "definition": "To close the mouth of a hook by a careful binding of marline or wire.",
+        "example": "Captain higgins moused the hook with a bit of marline to prevent the block beckets from falling out under slack."
+    },
+    {
+        "word": "Nose",
+        "level": "A1",
+        "definition": "A protuberance on the face housing the nostrils, which are used to breathe or smell.",
+        "example": "She has a cold in the nose."
+    },
+    {
+        "word": "Owl",
+        "level": "A1",
+        "definition": "Any of various birds of prey of the order Strigiformes that are primarily nocturnal and have forward-looking, binocular vision, limited eye movement, and good hearing.",
+        "example": "I learned the word 'owl' today."
+    },
+    {
+        "word": "Pen",
+        "level": "A1",
+        "definition": "An enclosure (enclosed area) used to contain domesticated animals, especially sheep or cattle.",
+        "example": "There are two steers in the third pen."
+    },
+    {
+        "word": "Quilt",
+        "level": "A1",
+        "definition": "A bed covering consisting of two layers of fabric stitched together, with insulation between, often having a decorative design.",
+        "example": "My grandmother is going to sew a quilt."
+    },
+    {
+        "word": "Ring",
+        "level": "A1",
+        "definition": "A piece of food in the shape of a ring.",
+        "example": "Onion rings"
+    },
+    {
+        "word": "Star",
+        "level": "A1",
+        "definition": "An actor in a leading role.",
+        "example": "Many hollywood stars attended the launch party."
+    },
+    {
+        "word": "Table",
+        "level": "A1",
+        "definition": "To tabulate; to put into a table or grid.",
+        "example": "To table fines"
+    },
+    {
+        "word": "Uncle",
+        "level": "A1",
+        "definition": "The brother or brother-in-law of one’s parent.",
+        "example": "I learned the word 'uncle' today."
+    },
+    {
+        "word": "Vase",
+        "level": "A1",
+        "definition": "An upright open container used mainly for displaying fresh, dried, or artificial flowers.",
+        "example": "I learned the word 'vase' today."
+    },
+    {
+        "word": "Window",
+        "level": "A1",
+        "definition": "The inedible parts of a grain-producing plant.",
+        "example": "To separate out the chaff, early cultures tossed baskets of grain into the air and let the wind blow away the lighter chaff."
+    },
+    {
+        "word": "Box",
+        "level": "A1",
+        "definition": "Senses relating to a three-dimensional object or space.",
+        "example": "I learned the word 'box' today."
+    },
+    {
+        "word": "Yard",
+        "level": "A1",
+        "definition": "A small, usually uncultivated area adjoining or (now especially) within the precincts of a house or other building.",
+        "example": "I learned the word 'yard' today."
+    },
+    {
+        "word": "Arrive",
+        "level": "A2",
+        "definition": "To reach; to get to a certain place.",
+        "example": "He arrived home for two days."
+    },
+    {
+        "word": "Beautiful",
+        "level": "A2",
+        "definition": "Someone who is beautiful. Can be used as a term of address.",
+        "example": "Hey, beautiful!"
+    },
+    {
+        "word": "Careful",
+        "level": "A2",
+        "definition": "Taking care; attentive to potential danger, error or harm; cautious.",
+        "example": "He was a slow and careful driver."
+    },
+    {
+        "word": "Decide",
+        "level": "A2",
+        "definition": "To resolve (a contest, problem, dispute, etc.); to choose, determine, or settle",
+        "example": "Her last-minute goal decided the game."
+    },
+    {
+        "word": "Empty",
+        "level": "A2",
+        "definition": "(usually plural) A container, especially a bottle, whose contents have been used up, leaving it empty.",
+        "example": "Put the empties out to be recycled."
+    },
+    {
+        "word": "Famous",
+        "level": "A2",
+        "definition": "In the public eye.",
+        "example": "Some people are only famous within their city."
+    },
+    {
+        "word": "Guess",
+        "level": "A2",
+        "definition": "To solve by a correct conjecture; to conjecture rightly.",
+        "example": "He who guesses the riddle shall have the ring."
+    },
+    {
+        "word": "Huge",
+        "level": "A2",
+        "definition": "Very large.",
+        "example": "The castle was huge."
+    },
+    {
+        "word": "Invite",
+        "level": "A2",
+        "definition": "To ask for the presence or participation of someone or something.",
+        "example": "We invited our friends round for dinner."
+    },
+    {
+        "word": "Joke",
+        "level": "A2",
+        "definition": "Something said or done for amusement, not in seriousness.",
+        "example": "It was a joke!"
+    },
+    {
+        "word": "Kiss",
+        "level": "A2",
+        "definition": "To (cause to) touch lightly or slightly; to come into contact.",
+        "example": "His ball kissed the black into the corner pocket."
+    },
+    {
+        "word": "Loud",
+        "level": "A2",
+        "definition": "(of a sound) Of great intensity.",
+        "example": "Turn that music down; it's too loud."
+    },
+    {
+        "word": "Meal",
+        "level": "A2",
+        "definition": "Food that is prepared and eaten, usually at a specific time, and usually in a comparatively large quantity (as opposed to a snack).",
+        "example": "Breakfast is the morning meal, lunch is the noon meal, and dinner, or supper, is the evening meal."
+    },
+    {
+        "word": "Nervous",
+        "level": "A2",
+        "definition": "Of sinews and tendons.",
+        "example": "I learned the word 'nervous' today."
+    },
+    {
+        "word": "Offer",
+        "level": "A2",
+        "definition": "A proposal that has been made.",
+        "example": "I decline your offer to contract."
+    },
+    {
+        "word": "Promise",
+        "level": "A2",
+        "definition": "An oath or affirmation; a vow",
+        "example": "If i make a promise, i always stick to it;  he broke his promise"
+    },
+    {
+        "word": "Quiet",
+        "level": "A2",
+        "definition": "The absence of sound; quietness.",
+        "example": "There was a strange quiet in the normally very lively plaza."
+    },
+    {
+        "word": "Relax",
+        "level": "A2",
+        "definition": "To make something loose.",
+        "example": "To relax a rope or cord"
+    },
+    {
+        "word": "Share",
+        "level": "A2",
+        "definition": "A configuration enabling a resource to be shared over a network.",
+        "example": "Upload media from the browser or directly to the file share."
+    },
+    {
+        "word": "Tired",
+        "level": "A2",
+        "definition": "To become bored or impatient (with).",
+        "example": "I tire of this book."
+    },
+    {
+        "word": "Useful",
+        "level": "A2",
+        "definition": "Having a practical or beneficial use.",
+        "example": "I learned the word 'useful' today."
+    },
+    {
+        "word": "Village",
+        "level": "A2",
+        "definition": "A rural habitation of size between a hamlet and a town.",
+        "example": "There are 2 churches and 3 shops in our village."
+    },
+    {
+        "word": "Wake",
+        "level": "A2",
+        "definition": "(often followed by up) To stop sleeping.",
+        "example": "I woke up at four o'clock this morning."
+    },
+    {
+        "word": "Accept",
+        "level": "A2",
+        "definition": "To admit to a place or a group.",
+        "example": "The boy scouts were going to accept him as a member."
+    },
+    {
+        "word": "Borrow",
+        "level": "A2",
+        "definition": "Deviation of the path of a rolling ball from a straight line; slope; slant.",
+        "example": "This putt has a big left-to right borrow on it."
+    },
+    {
+        "word": "Choose",
+        "level": "A2",
+        "definition": "To pick; to make the choice of; to select.",
+        "example": "I chose a nice ripe apple from the fruit bowl."
+    },
+    {
+        "word": "Describe",
+        "level": "A2",
+        "definition": "To represent in words.",
+        "example": "The feeling is difficult to describe, but not unpleasant."
+    },
+    {
+        "word": "Earn",
+        "level": "A2",
+        "definition": "To gain (success, reward, recognition) through applied effort or work.",
+        "example": "You can have the s'mores: you earned them, clearing the walkway of snow so well."
+    },
+    {
+        "word": "Forget",
+        "level": "A2",
+        "definition": "To lose remembrance of.",
+        "example": "I have forgotten most of the things i learned in school."
+    },
+    {
+        "word": "Happen",
+        "level": "A2",
+        "definition": "To occur or take place.",
+        "example": "Let me tell you how it happened."
+    },
+    {
+        "word": "Improve",
+        "level": "A2",
+        "definition": "To make (something) better; to increase the value or productivity (of something).",
+        "example": "Buying more servers would improve performance."
+    },
+    {
+        "word": "Join",
+        "level": "A2",
+        "definition": "To connect or combine into one; to put together.",
+        "example": "The plumber joined the two ends of the broken pipe."
+    },
+    {
+        "word": "Keep",
+        "level": "A2",
+        "definition": "The food or money required to keep someone alive and healthy; one's support, maintenance.",
+        "example": "He works as a cobbler's apprentice for his keep."
+    },
+    {
+        "word": "Laugh",
+        "level": "A2",
+        "definition": "An expression of mirth particular to the human species; the sound heard in laughing; laughter.",
+        "example": "His deep laughs boomed through the room."
+    },
+    {
+        "word": "Mention",
+        "level": "A2",
+        "definition": "A speaking or notice of anything, usually in a brief or cursory manner. Used especially in the phrase make mention of.",
+        "example": "I learned the word 'mention' today."
+    },
+    {
+        "word": "Notice",
+        "level": "A2",
+        "definition": "The act of observing; perception.",
+        "example": "He took no notice of the changes, and went on as though nothing had happened."
+    },
+    {
+        "word": "Own",
+        "level": "A2",
+        "definition": "Not shared",
+        "example": "When we move into the new house, the kids will each have their own bedroom."
+    },
+    {
+        "word": "Prepare",
+        "level": "A2",
+        "definition": "To make ready for a specific future purpose; to set up; to assemble or equip.",
+        "example": "We prepared the spacecraft for takeoff."
+    },
+    {
+        "word": "Repair",
+        "level": "A2",
+        "definition": "The act of repairing something.",
+        "example": "I took the car to the workshop for repair."
+    },
+    {
+        "word": "Spend",
+        "level": "A2",
+        "definition": "Amount of money spent (during a period); expenditure.",
+        "example": "I’m sorry, boss, but the advertising spend exceeded the budget again this month."
+    },
+    {
+        "word": "Teach",
+        "level": "A2",
+        "definition": "To show (someone) the way; to guide, conduct; to point, indicate.",
+        "example": "‘the bliss is there’, mumbled the old man and taught to heaven."
+    },
+    {
+        "word": "Understand",
+        "level": "A2",
+        "definition": "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of.",
+        "example": "I'm sorry. i don't understand."
+    },
+    {
+        "word": "Visit",
+        "level": "A2",
+        "definition": "A single act of visiting.",
+        "example": "I learned the word 'visit' today."
+    },
+    {
+        "word": "Worry",
+        "level": "A2",
+        "definition": "A strong feeling of anxiety.",
+        "example": "I'm afflicted by worry throughout the night."
+    },
+    {
+        "word": "Agree",
+        "level": "A2",
+        "definition": "To harmonize in opinion, statement, or action; to be in unison or concord; to be or become united or consistent; to concur.",
+        "example": "All parties agree in the expediency of the law."
+    },
+    {
+        "word": "Believe",
+        "level": "A2",
+        "definition": "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)",
+        "example": "I believe there are faeries."
+    },
+    {
+        "word": "Cancel",
+        "level": "A2",
+        "definition": "To invalidate or annul something.",
+        "example": "He cancelled his order on their website."
+    },
+    {
+        "word": "Dream",
+        "level": "A2",
+        "definition": "A visionary scheme; a wild conceit; an idle fancy.",
+        "example": "A dream of bliss"
+    },
+    {
+        "word": "Explain",
+        "level": "A2",
+        "definition": "To make plain, manifest, or intelligible; to clear of obscurity; to illustrate the meaning of.",
+        "example": "To explain a chapter of the bible."
+    },
+    {
+        "word": "Fail",
+        "level": "A2",
+        "definition": "Poor quality; substandard workmanship.",
+        "example": "The project was full of fail."
+    },
+    {
+        "word": "Advantage",
+        "level": "B1",
+        "definition": "Any condition, circumstance, opportunity or means, particularly favorable to success, or to any desired end.",
+        "example": "The enemy had the advantage of a more elevated position."
+    },
+    {
+        "word": "Confident",
+        "level": "B1",
+        "definition": "Very sure of something; positive.",
+        "example": "I'm pretty confident that she's not lying, she's acting normally."
+    },
+    {
+        "word": "Develop",
+        "level": "B1",
+        "definition": "To change with a specific direction, progress.",
+        "example": "Let's see how things develop and then make our decision."
+    },
+    {
+        "word": "Experience",
+        "level": "B1",
+        "definition": "The effect upon the judgment or feelings produced by any event, whether witnessed or participated in; personal and direct impressions as contrasted with description or fancies; personal acquaintance; actual enjoyment or suffering.",
+        "example": "It was an experience he would not soon forget."
+    },
+    {
+        "word": "Frequent",
+        "level": "B1",
+        "definition": "Done or occurring often; common.",
+        "example": "I am a frequent visitor to that city."
+    },
+    {
+        "word": "Gather",
+        "level": "B1",
+        "definition": "To collect; normally separate things.",
+        "example": "I've been gathering ideas from the people i work with."
+    },
+    {
+        "word": "Hesitate",
+        "level": "B1",
+        "definition": "To stop or pause respecting decision or action; to be in suspense or uncertainty as to a determination.",
+        "example": "He hesitated whether to accept the offer or not; men often hesitate in forming a judgment."
+    },
+    {
+        "word": "Independent",
+        "level": "B1",
+        "definition": "Not affiliated with any political party.",
+        "example": "The independent candidate"
+    },
+    {
+        "word": "Justify",
+        "level": "B1",
+        "definition": "To provide an acceptable explanation for.",
+        "example": "How can you justify spending so much money on clothes?"
+    },
+    {
+        "word": "Knowledge",
+        "level": "B1",
+        "definition": "The fact of knowing about something; general understanding or familiarity with a subject, place, situation etc.",
+        "example": "His knowledge of iceland was limited to what he'd seen on the travel channel."
+    },
+    {
+        "word": "Locate",
+        "level": "B1",
+        "definition": "To designate the site or place of; to define the limits of (Note: the designation may be purely descriptive: it need not be prescriptive.)",
+        "example": "The council must locate the new hospital"
+    },
+    {
+        "word": "Manage",
+        "level": "B1",
+        "definition": "To succeed at an attempt.",
+        "example": "He managed to climb the tower."
+    },
+    {
+        "word": "Negotiate",
+        "level": "B1",
+        "definition": "To arrange or settle something by mutual agreement.",
+        "example": "The client and server computers must first negotiate a network protocol to be used."
+    },
+    {
+        "word": "Observe",
+        "level": "B1",
+        "definition": "To notice or view, especially carefully or with attention to detail.",
+        "example": "From this vantage point we can observe the behavior of the animals in their natural habitat."
+    },
+    {
+        "word": "Participate",
+        "level": "B1",
+        "definition": "To join in, to take part, to involve oneself (in something).",
+        "example": "I learned the word 'participate' today."
+    },
+    {
+        "word": "Qualify",
+        "level": "B1",
+        "definition": "To throw and catch each object at least twice.",
+        "example": "To qualify seven balls you need at least fourteen catches"
+    },
+    {
+        "word": "Recognize",
+        "level": "B1",
+        "definition": "To match (something or someone which one currently perceives) to a memory of some previous encounter with the same person or thing.",
+        "example": "I recognised his face immediately."
+    },
+    {
+        "word": "Suggest",
+        "level": "B1",
+        "definition": "To imply but stop short of saying explicitly.",
+        "example": "Are you suggesting that i killed my wife?"
+    },
+    {
+        "word": "Translate",
+        "level": "B1",
+        "definition": "To entrance, to cause to lose recollection or sense.",
+        "example": "William was translated by the blow to the head he received, being unable to speak for the next few minutes."
+    },
+    {
+        "word": "Unique",
+        "level": "B1",
+        "definition": "Being the only one of its kind; unequaled, unparalleled or unmatched.",
+        "example": "Every person has a unique life, therefore every person has a unique journey. ― gary cook"
+    },
+    {
+        "word": "Valuable",
+        "level": "B1",
+        "definition": "Having a great value.",
+        "example": "Valuable gemstones"
+    },
+    {
+        "word": "Wonder",
+        "level": "B1",
+        "definition": "Something that causes amazement or awe; a marvel.",
+        "example": "Wonders of the world seem to come in sevens."
+    },
+    {
+        "word": "Achieve",
+        "level": "B1",
+        "definition": "To obtain (a material thing).",
+        "example": "Show all the spoils by valiant kings achieved."
+    },
+    {
+        "word": "Balance",
+        "level": "B1",
+        "definition": "Something of equal weight used to provide equilibrium; counterweight.",
+        "example": "Blair thought he could provide a useful balance to bush's policies."
+    },
+    {
+        "word": "Challenge",
+        "level": "B1",
+        "definition": "To invite (someone) to take part in a competition.",
+        "example": "We challenged the boys next door to a game of football."
+    },
+    {
+        "word": "Defend",
+        "level": "B1",
+        "definition": "To ward off attacks against; to fight to protect; to guard.",
+        "example": "I learned the word 'defend' today."
+    },
+    {
+        "word": "Encourage",
+        "level": "B1",
+        "definition": "To mentally support; to motivate, give courage, hope or spirit.",
+        "example": "I encouraged him during his race."
+    },
+    {
+        "word": "Familiar",
+        "level": "B1",
+        "definition": "An attendant spirit, often in animal or demon form.",
+        "example": "The witch’s familiar was a black cat."
+    },
+    {
+        "word": "Generate",
+        "level": "B1",
+        "definition": "To bring into being; give rise to.",
+        "example": "The discussion generated an uproar."
+    },
+    {
+        "word": "Handle",
+        "level": "B1",
+        "definition": "The gross amount of wagering within a given period of time or for a given event at one of more establishments.",
+        "example": "The daily handle of a las vegas casino is typically millions of dollars."
+    },
+    {
+        "word": "Identify",
+        "level": "B1",
+        "definition": "To disclose the identity of someone.",
+        "example": "The associated press will not identify the suspect of the crime because he is a juvenile."
+    },
+    {
+        "word": "Judge",
+        "level": "B1",
+        "definition": "A person officiating at a sports event or similar.",
+        "example": "At a boxing match, the decision of the judges is final."
+    },
+    {
+        "word": "Maintain",
+        "level": "B1",
+        "definition": "To support (someone), to back up or assist (someone) in an action.",
+        "example": "I learned the word 'maintain' today."
+    },
+    {
+        "word": "Organize",
+        "level": "B1",
+        "definition": "(chiefly used in the past participle) To furnish with organs; to give an organic structure to; to endow with capacity for the functions of life",
+        "example": "An organized being"
+    },
+    {
+        "word": "Perform",
+        "level": "B1",
+        "definition": "To do something; to execute.",
+        "example": "It took him only twenty minutes to perform the task."
+    },
+    {
+        "word": "Recommend",
+        "level": "B1",
+        "definition": "To bestow commendation on; to represent favourably; to suggest, endorse or encourage as an appropriate choice.",
+        "example": "The board recommends philips, given his ample experience in similar positions."
+    },
+    {
+        "word": "Satisfy",
+        "level": "B1",
+        "definition": "To do enough for; to meet the needs of; to fulfill the wishes or requirements of.",
+        "example": "I'm not satisfied with the quality of the food here."
+    },
+    {
+        "word": "Tend",
+        "level": "B1",
+        "definition": "(followed by a to-infinitive) To be likely, or probable to do something, or to have a certain habit or leaning.",
+        "example": "It tends to snow here in winter."
+    },
+    {
+        "word": "Urgent",
+        "level": "B1",
+        "definition": "Requiring immediate attention.",
+        "example": "An urgent appeal was sent out for assistance."
+    },
+    {
+        "word": "Variety",
+        "level": "B1",
+        "definition": "The quality of being varied; diversity.",
+        "example": "Variety is the spice of life."
+    },
+    {
+        "word": "Wealth",
+        "level": "B1",
+        "definition": "A great amount; an abundance or plenty.",
+        "example": "She brings a wealth of knowledge to the project."
+    },
+    {
+        "word": "Abroad",
+        "level": "B1",
+        "definition": "At large; widely; broadly; over a wide space.",
+        "example": "A tree spreads its branches abroad."
+    },
+    {
+        "word": "Benefit",
+        "level": "B1",
+        "definition": "An advantage; help or aid from something.",
+        "example": "It was for her benefit.   his benefit was free beer."
+    },
+    {
+        "word": "Compete",
+        "level": "B1",
+        "definition": "To be in battle or in a rivalry with another for the same thing, position, or reward; to contend",
+        "example": "I learned the word 'compete' today."
+    },
+    {
+        "word": "Demand",
+        "level": "B1",
+        "definition": "The desire to purchase goods and services.",
+        "example": "Prices usually go up when demand exceeds supply."
+    },
+    {
+        "word": "Efficient",
+        "level": "B1",
+        "definition": "Making good, thorough, or careful use of resources; not consuming extra. Especially, making good use of time or energy",
+        "example": "An efficient process would automate all the routine work."
+    },
+    {
+        "word": "Feature",
+        "level": "B1",
+        "definition": "The cast or structure of anything, or of any part of a thing, as of a landscape, a picture, a treaty, or an essay; any marked peculiarity or characteristic.",
+        "example": "One of the features of the landscape"
+    },
+    {
+        "word": "Guarantee",
+        "level": "B1",
+        "definition": "Anything that assures a certain outcome.",
+        "example": "Can you give me a guarantee that he will be fit for the match?"
+    },
+    {
+        "word": "Highlight",
+        "level": "B1",
+        "definition": "An especially significant or interesting detail or event or period of time.",
+        "example": "Meeting my future wife was the highlight of my trip to spain."
+    },
+    {
+        "word": "Ignore",
+        "level": "B1",
+        "definition": "To deliberately not listen or pay attention to.",
+        "example": "A problem ignored is a problem doubled."
+    },
+    {
+        "word": "Analyze",
+        "level": "B2",
+        "definition": "To subject to analysis.",
+        "example": "I learned the word 'analyze' today."
+    },
+    {
+        "word": "Beneficial",
+        "level": "B2",
+        "definition": "Helpful or good to something or someone.",
+        "example": "Recycling and reusing garbage can be beneficial to the environment."
+    },
+    {
+        "word": "Controversy",
+        "level": "B2",
+        "definition": "A debate or discussion of opposing opinions; (generally) strife.",
+        "example": "I learned the word 'controversy' today."
+    },
+    {
+        "word": "Demonstrate",
+        "level": "B2",
+        "definition": "To show how to use (something).",
+        "example": "Can you demonstrate the new tools for us?"
+    },
+    {
+        "word": "Evaluate",
+        "level": "B2",
+        "definition": "To draw conclusions from examining; to assess.",
+        "example": "It will take several years to evaluate the material gathered in the survey."
+    },
+    {
+        "word": "Facilitate",
+        "level": "B2",
+        "definition": "To make easy or easier.",
+        "example": "I learned the word 'facilitate' today."
+    },
+    {
+        "word": "Generate",
+        "level": "B2",
+        "definition": "To bring into being; give rise to.",
+        "example": "The discussion generated an uproar."
+    },
+    {
+        "word": "Hypothesis",
+        "level": "B2",
+        "definition": "Used loosely, a tentative conjecture explaining an observation, phenomenon or scientific problem that can be tested by further observation, investigation and/or experimentation. As a scientific term of art, see the attached quotation. Compare to theory, and quotation given there.",
+        "example": "I learned the word 'hypothesis' today."
+    },
+    {
+        "word": "Implement",
+        "level": "B2",
+        "definition": "A tool or instrument for working with.",
+        "example": "They carried an assortment of gardening implements in the truck."
+    },
+    {
+        "word": "Justify",
+        "level": "B2",
+        "definition": "To provide an acceptable explanation for.",
+        "example": "How can you justify spending so much money on clothes?"
+    },
+    {
+        "word": "Kinematics",
+        "level": "B2",
+        "definition": "The branch of mechanics concerned with objects in motion, but not with the forces involved.",
+        "example": "I learned the word 'kinematics' today."
+    },
+    {
+        "word": "Logical",
+        "level": "B2",
+        "definition": "Non-physical or conceptual yet underpinned by something physical or actual.",
+        "example": "Logical memory appears contiguous to an application program, but may well be stored on several physical devices, including in ram and on hard-disks, as determined by the operating system."
+    },
+    {
+        "word": "Manipulate",
+        "level": "B2",
+        "definition": "To move, arrange or operate something using the hands",
+        "example": "I learned the word 'manipulate' today."
+    },
+    {
+        "word": "Neutral",
+        "level": "B2",
+        "definition": "Favouring neither the supporting nor opposing viewpoint of a topic of debate; unbiased.",
+        "example": "I am neutral regarding the issue of gay marriage."
+    },
+    {
+        "word": "Objective",
+        "level": "B2",
+        "definition": "A material object that physically exists.",
+        "example": "I learned the word 'objective' today."
+    },
+    {
+        "word": "Perspective",
+        "level": "B2",
+        "definition": "Of, in or relating to perspective.",
+        "example": "A perspective drawing"
+    },
+    {
+        "word": "Qualitative",
+        "level": "B2",
+        "definition": "Something qualitative.",
+        "example": "I learned the word 'qualitative' today."
+    },
+    {
+        "word": "Relevant",
+        "level": "B2",
+        "definition": "Directly related, connected, or pertinent to a topic.",
+        "example": "His mother provided some relevant background information concerning his medical condition."
+    },
+    {
+        "word": "Significant",
+        "level": "B2",
+        "definition": "Signifying something; carrying meaning.",
+        "example": "A significant word or sound; a significant look"
+    },
+    {
+        "word": "Theoretical",
+        "level": "B2",
+        "definition": "Of or relating to theory; abstract; not empirical.",
+        "example": "I learned the word 'theoretical' today."
+    },
+    {
+        "word": "Undergo",
+        "level": "B2",
+        "definition": "To experience; to pass through a phase.",
+        "example": "The project is undergoing great changes."
+    },
+    {
+        "word": "Validity",
+        "level": "B2",
+        "definition": "The state of being valid, authentic or genuine.",
+        "example": "I learned the word 'validity' today."
+    },
+    {
+        "word": "Widespread",
+        "level": "B2",
+        "definition": "Affecting a large area (e.g. the entire land or body); broad in extent; widely diffused.",
+        "example": "I learned the word 'widespread' today."
+    },
+    {
+        "word": "Abandon",
+        "level": "B2",
+        "definition": "To leave behind; to desert as in a ship or a position, typically in response to overwhelming odds or impending dangers; to forsake, in spite of a duty or responsibility.",
+        "example": "Many baby girls have been abandoned on the streets of beijing."
+    },
+    {
+        "word": "Consequence",
+        "level": "B2",
+        "definition": "A result of actions, especially if such a result is unwanted or unpleasant.",
+        "example": "I'm warning you. if you don't get me the report on time, there will be consequences."
+    },
+    {
+        "word": "Crucial",
+        "level": "B2",
+        "definition": "Essential or decisive for determining the outcome or future of something; extremely important.",
+        "example": "A secure supply of crude oil is crucial for any modern nation, let alone a superpower."
+    },
+    {
+        "word": "Distinguish",
+        "level": "B2",
+        "definition": "To make oneself noticeably different or better from others through accomplishments.",
+        "example": "The soldier distinguished himself in combat and received a medal."
+    },
+    {
+        "word": "Emerge",
+        "level": "B2",
+        "definition": "To come out of a situation, object or a liquid.",
+        "example": "He emerged unscathed from the accident."
+    },
+    {
+        "word": "Fundamental",
+        "level": "B2",
+        "definition": "(usually in the plural) A leading or primary principle, rule, law, or article, which serves as the groundwork of a system; an essential part",
+        "example": "One of the fundamentals of linear algebra"
+    },
+    {
+        "word": "Hierarchy",
+        "level": "B2",
+        "definition": "A body of authoritative officials organized in nested ranks.",
+        "example": "I learned the word 'hierarchy' today."
+    },
+    {
+        "word": "Imply",
+        "level": "B2",
+        "definition": "(of a proposition) to have as a necessary consequence",
+        "example": "The proposition that \"all dogs are mammals\" implies that my dog is a mammal"
+    },
+    {
+        "word": "Inevitable",
+        "level": "B2",
+        "definition": "Impossible to avoid or prevent.",
+        "example": "We were going so fast that the collision was inevitable."
+    },
+    {
+        "word": "Modify",
+        "level": "B2",
+        "definition": "To change part of.",
+        "example": "I learned the word 'modify' today."
+    },
+    {
+        "word": "Notion",
+        "level": "B2",
+        "definition": "An invention; an ingenious device; a knickknack.",
+        "example": "Yankee notions"
+    },
+    {
+        "word": "Obtain",
+        "level": "B2",
+        "definition": "To get hold of; to gain possession of, to procure; to acquire, in any way.",
+        "example": "I learned the word 'obtain' today."
+    },
+    {
+        "word": "Perceive",
+        "level": "B2",
+        "definition": "To become aware of, through the physical senses or by thinking; to see; to understand.",
+        "example": "I learned the word 'perceive' today."
+    },
+    {
+        "word": "Proportion",
+        "level": "B2",
+        "definition": "The relation of one part to another or to the whole with respect to magnitude, quantity, or degree.",
+        "example": "The proportion of the parts of a building, or of the body"
+    },
+    {
+        "word": "Reject",
+        "level": "B2",
+        "definition": "To refuse to accept.",
+        "example": "She even rejected my improved offer."
+    },
+    {
+        "word": "Reveal",
+        "level": "B2",
+        "definition": "A revelation; an uncovering of what was hidden.",
+        "example": "The comedian had been telling us about his sleep being disturbed by noise. then came the reveal: he was sleeping on a bed in a department store."
+    },
+    {
+        "word": "Sequence",
+        "level": "B2",
+        "definition": "The state of being sequent or following; order of succession.",
+        "example": "Complete the listed tasks in sequence."
+    },
+    {
+        "word": "Subsequent",
+        "level": "B2",
+        "definition": "Following in time; coming or being after something else at any time, indefinitely.",
+        "example": "Growth was dampened by a softening of the global economy in 2001, but picked up in the subsequent years due to strong growth in china."
+    },
+    {
+        "word": "Transform",
+        "level": "B2",
+        "definition": "To change greatly the appearance or form of.",
+        "example": "The alchemists sought to transform lead into gold."
+    },
+    {
+        "word": "Ultimate",
+        "level": "B2",
+        "definition": "Being the greatest possible; maximum; most extreme.",
+        "example": "The ultimate disappointment"
+    },
+    {
+        "word": "Vary",
+        "level": "B2",
+        "definition": "To change with time or a similar parameter.",
+        "example": "He varies his magic tricks so as to minimize the possibility that any given audience member will see the same trick twice."
+    },
+    {
+        "word": "Visible",
+        "level": "B2",
+        "definition": "Able to be seen.",
+        "example": "When the sun rises, the world becomes visible."
+    },
+    {
+        "word": "Accommodate",
+        "level": "B2",
+        "definition": "To render fit, suitable, or correspondent; to adapt.",
+        "example": "To accommodate ourselves to circumstances"
+    },
+    {
+        "word": "Anticipate",
+        "level": "B2",
+        "definition": "To take up or introduce (something) prematurely.",
+        "example": "The advocate plans to anticipate a part of her argument."
+    },
+    {
+        "word": "Coherent",
+        "level": "B2",
+        "definition": "Unified; sticking together; making up a whole.",
+        "example": "I learned the word 'coherent' today."
+    },
+    {
+        "word": "Contradict",
+        "level": "B2",
+        "definition": "To deny the truth of (a statement or statements).",
+        "example": "His testimony contradicts hers."
+    },
+    {
+        "word": "Derive",
+        "level": "B2",
+        "definition": "To obtain or receive (something) from something else.",
+        "example": "I learned the word 'derive' today."
     },
     {
         "word": "Ambiguous",
         "level": "C1",
-        "definition": "Open to more than one interpretation; not having one obvious meaning.",
-        "example": "The initial project requirements were too ambiguous, leading to several rounds of unnecessary revisions."
-    },
-    {
-        "word": "Feasible",
-        "level": "C1",
-        "definition": "Possible to do easily or conveniently.",
-        "example": "The technical team concluded that integrating the legacy system with the new API was not feasible within the current budget."
-    },
-    {
-        "word": "Implicit",
-        "level": "C1",
-        "definition": "Suggested though not directly expressed.",
-        "example": "There was an implicit understanding between the two partners that the merger would benefit both sectors equally."
-    },
-    {
-        "word": "Mitigate",
-        "level": "C1",
-        "definition": "To make something less severe, serious, or painful.",
-        "example": "The company implemented new security protocols to mitigate the risk of data breaches."
-    },
-    {
-        "word": "Paradigm",
-        "level": "C1",
-        "definition": "A typical example or pattern of something; a model.",
-        "example": "The shift toward remote work represents a major paradigm shift in modern corporate culture."
-    },
-    {
-        "word": "Quantifiable",
-        "level": "C1",
-        "definition": "Able to be expressed or measured as a quantity.",
-        "example": "The success of the new marketing campaign was easily quantifiable through the surge in user engagement."
-    },
-    {
-        "word": "Robust",
-        "level": "C1",
-        "definition": "Sturdy in construction; (of a process or system) able to withstand or overcome adverse conditions.",
-        "example": "We need a robust framework to handle the high volume of traffic expected during the product launch."
-    },
-    {
-        "word": "Synthesize",
-        "level": "C1",
-        "definition": "To combine a number of things into a coherent whole.",
-        "example": "The researcher had to synthesize data from multiple centuries to create a complete history of the trade route."
-    },
-    {
-        "word": "Tentative",
-        "level": "C1",
-        "definition": "Not certain or fixed; provisional.",
-        "example": "We have a tentative schedule for the next release, but it depends on the final QA testing."
-    },
-    {
-        "word": "Underlying",
-        "level": "C1",
-        "definition": "Significant as a cause or basis of something but not necessarily manifest or obvious.",
-        "example": "The underlying cause of the market volatility was a lack of investor confidence in the tech sector."
-    },
-    {
-        "word": "Viable",
-        "level": "C1",
-        "definition": "Capable of working successfully; feasible.",
-        "example": "Without a clear monetization strategy, the startup was no longer a viable investment."
-    },
-    {
-        "word": "Yield",
-        "level": "C1",
-        "definition": "To produce or provide (a natural, agricultural, or industrial product).",
-        "example": "The new chip manufacturing process is expected to yield a 20% increase in efficiency."
-    },
-    {
-        "word": "Abstain",
-        "level": "C1",
-        "definition": "Restrain oneself from doing or enjoying something.",
-        "example": "Several board members chose to abstain from voting on the controversial proposal."
-    },
-    {
-        "word": "Benevolent",
-        "level": "C1",
-        "definition": "Well meaning and kindly.",
-        "example": "The organization’s benevolent activities have helped thousands of students access higher education."
-    },
-    {
-        "word": "Collaborate",
-        "level": "C1",
-        "definition": "Work jointly on an activity or project.",
-        "example": "Engineers from three different countries will collaborate on the design of the new optical chip."
+        "definition": "Open to multiple interpretations.",
+        "example": "The politician was criticized for his ambiguous statements and lack of precision."
     },
     {
         "word": "Diligent",
         "level": "C1",
-        "definition": "Having or showing care and conscientiousness in one's work or duties.",
-        "example": "After a diligent search of the archives, the historian found the missing document."
+        "definition": "Performing with industrious concentration; hard-working and focused.",
+        "example": "Scientists are very diligent in their work."
     },
     {
-        "word": "Emulate",
+        "word": "Mitigate",
         "level": "C1",
-        "definition": "Match or surpass (a person or achievement), typically by imitation.",
-        "example": "Smaller tech firms often try to emulate the agile product management style used by industry leaders."
+        "definition": "To reduce, lessen, or decrease; to make less severe or easier to bear.",
+        "example": "I learned the word 'mitigate' today."
     },
     {
-        "word": "Fortuitous",
+        "word": "Paradigm",
         "level": "C1",
-        "definition": "Happening by a lucky chance; fortunate.",
-        "example": "The timing of the investment was fortuitous, occurring just before the sector’s rapid growth."
+        "definition": "A pattern, a way of doing something, especially a pattern of thought, a system of beliefs, a conceptual framework.",
+        "example": "Thomas kuhn's landmark “the structure of scientific revolutions” got people talking about paradigm shifts, to the point the word itself now suggests an incomplete or biased perspective."
     },
     {
-        "word": "Hypothetical",
+        "word": "Synthesize",
         "level": "C1",
-        "definition": "Based on or serving as a hypothesis.",
-        "example": "The speaker used a hypothetical scenario to explain the potential dangers of unregulated AI."
+        "definition": "To combine two or more things to produce a new product.",
+        "example": "I learned the word 'synthesize' today."
     },
     {
-        "word": "Inherent",
+        "word": "Abundant",
         "level": "C1",
-        "definition": "Existing in something as a permanent, essential, or characteristic attribute.",
-        "example": "There are inherent risks involved in shifting production to a new geographic region."
+        "definition": "Fully sufficient; found in copious supply; in great quantity; overflowing.",
+        "example": "[w]ith their magical words they [poets] bring forth to our eyesight the abundant images and beauties of creation. — leigh hunt, on the realities of imagination"
     },
     {
-        "word": "Judicious",
+        "word": "Cohesive",
         "level": "C1",
-        "definition": "Having, showing, or done with good judgment or sense.",
-        "example": "A judicious use of resources allowed the team to finish the project ahead of schedule."
+        "definition": "A substance that provides cohesion",
+        "example": "I learned the word 'cohesive' today."
+    },
+    {
+        "word": "Discrepancy",
+        "level": "C1",
+        "definition": "An inconsistency between facts or sentiments.",
+        "example": "They found a discrepancy between the first set of test results and the second, and they're still trying to figure out why."
+    },
+    {
+        "word": "Empirical",
+        "level": "C1",
+        "definition": "Pertaining to or based on experience.",
+        "example": "I learned the word 'empirical' today."
+    },
+    {
+        "word": "Fluctuate",
+        "level": "C1",
+        "definition": "To be irresolute; to waver.",
+        "example": "I fluctuated between wishing he was back home and wishing i'd never met him."
+    },
+    {
+        "word": "Innovative",
+        "level": "C1",
+        "definition": "Characterized by the creation of new ideas or inventions.",
+        "example": "I learned the word 'innovative' today."
     },
     {
         "word": "Lucrative",
         "level": "C1",
-        "definition": "Producing a great deal of profit.",
-        "example": "The export of high-tech components proved to be a lucrative venture for the local economy."
+        "definition": "Producing a surplus; profitable.",
+        "example": "I learned the word 'lucrative' today."
     },
     {
         "word": "Meticulous",
         "level": "C1",
-        "definition": "Showing great attention to detail; very careful and precise.",
-        "example": "The developer was meticulous in documenting every line of code for the open-source project."
+        "definition": "Characterized by very precise, conscientious attention to details.",
+        "example": "I learned the word 'meticulous' today."
     },
     {
-        "word": "Novel",
+        "word": "Nuance",
         "level": "C1",
-        "definition": "New or unusual in an interesting way.",
-        "example": "The team proposed a novel solution to the problem of heat dissipation in optical chips."
+        "definition": "Subtlety or fine detail.",
+        "example": "Understanding the basics is easy, but appreciating the nuances takes years."
     },
     {
         "word": "Obscure",
         "level": "C1",
-        "definition": "Not discovered or known about; uncertain.",
-        "example": "The origins of the manuscript remain obscure despite decades of intense study."
+        "definition": "Difficult to understand.",
+        "example": "An obscure passage or inscription;    the speaker made obscure references to little-known literary works."
     },
     {
-        "word": "Prerequisite",
+        "word": "Pragmatic",
         "level": "C1",
-        "definition": "A thing that is required as a prior condition for something else to happen or exist.",
-        "example": "A deep understanding of data structures is a prerequisite for advanced software engineering roles."
+        "definition": "Practical, concerned with making decisions and actions that are useful in practice, not just theory.",
+        "example": "The sturdy furniture in the student lounge was pragmatic, but unattractive."
+    },
+    {
+        "word": "Quantifiable",
+        "level": "C1",
+        "definition": "Something that can be quantified; a measurable.",
+        "example": "I learned the word 'quantifiable' today."
     },
     {
         "word": "Resilient",
         "level": "C1",
-        "definition": "Able to withstand or recover quickly from difficult conditions.",
-        "example": "The city proved resilient in the face of economic hardship, bouncing back within just a few years."
+        "definition": "(of objects or substances) Returning quickly to original shape after force is applied; elastic.",
+        "example": "I learned the word 'resilient' today."
+    },
+    {
+        "word": "Tentative",
+        "level": "C1",
+        "definition": "A trial; an experiment; an attempt.",
+        "example": "I learned the word 'tentative' today."
+    },
+    {
+        "word": "Viable",
+        "level": "C1",
+        "definition": "An organism that is able to live and develop.",
+        "example": "I learned the word 'viable' today."
+    },
+    {
+        "word": "Alleviate",
+        "level": "C1",
+        "definition": "To make less severe, as a pain or difficulty.",
+        "example": "Alcohol is often a cheap tool to alleviate the stress of a hard day."
+    },
+    {
+        "word": "Catalyst",
+        "level": "C1",
+        "definition": "Someone or something that encourages progress or change.",
+        "example": "Economic development and integration are working as a catalyst for peace."
+    },
+    {
+        "word": "Delineate",
+        "level": "C1",
+        "definition": "To sketch out, draw or trace an outline.",
+        "example": "I learned the word 'delineate' today."
+    },
+    {
+        "word": "Elucidate",
+        "level": "C1",
+        "definition": "To make clear; to clarify; to shed light upon.",
+        "example": "I learned the word 'elucidate' today."
+    },
+    {
+        "word": "Foster",
+        "level": "C1",
+        "definition": "A foster parent.",
+        "example": "Some fosters end up adopting."
+    },
+    {
+        "word": "Intrinsic",
+        "level": "C1",
+        "definition": "An ability possessed by a character and not requiring any external equipment.",
+        "example": "You can acquire the fire-resistance intrinsic by eating dragon meat."
+    },
+    {
+        "word": "Marginal",
+        "level": "C1",
+        "definition": "Of, relating to, or located at or near a margin or edge; also figurative usages of location and margin (edge).",
+        "example": "In recent years there has been an increase in violence against marginal groups."
+    },
+    {
+        "word": "Omnipresent",
+        "level": "C1",
+        "definition": "Being everywhere simultaneously",
+        "example": "I learned the word 'omnipresent' today."
+    },
+    {
+        "word": "Pervasive",
+        "level": "C1",
+        "definition": "Manifested throughout; pervading, permeating, penetrating or affecting everything.",
+        "example": "The medication had a pervasive effect on the patient's health."
+    },
+    {
+        "word": "Reiterate",
+        "level": "C1",
+        "definition": "To say or do (something) for a second time, such as for emphasis.",
+        "example": "Let me reiterate my opinion."
+    },
+    {
+        "word": "Scrutinize",
+        "level": "C1",
+        "definition": "To examine something with great care or detail, as to look for hidden or obscure flaws.",
+        "example": "To scrutinize the conduct or motives of individuals"
+    },
+    {
+        "word": "Tangible",
+        "level": "C1",
+        "definition": "Real or concrete results.",
+        "example": "Yes, but what are the tangibles?"
+    },
+    {
+        "word": "Ubiquitous",
+        "level": "C1",
+        "definition": "Being everywhere at once: omnipresent.",
+        "example": "To hindus, jews, christians, and muslims, god is ubiquitous."
+    },
+    {
+        "word": "Vindicate",
+        "level": "C1",
+        "definition": "To clear of an accusation, suspicion or criticism.",
+        "example": "To vindicate someone's honor"
+    },
+    {
+        "word": "Zealous",
+        "level": "C1",
+        "definition": "Full of zeal; ardent, fervent; exhibiting enthusiasm or strong passion.",
+        "example": "I learned the word 'zealous' today."
+    },
+    {
+        "word": "Arbitrary",
+        "level": "C1",
+        "definition": "(usually of a decision) Based on individual discretion or judgment; not based on any objective distinction, perhaps even made at random.",
+        "example": "Benjamin franklin's designation of \"positive\" and \"negative\" to different charges was arbitrary."
+    },
+    {
+        "word": "Cogent",
+        "level": "C1",
+        "definition": "Forcefully persuasive; relevant, pertinent.",
+        "example": "The prosecution presented a cogent argument, convincing the jury of the defendant's guilt."
+    },
+    {
+        "word": "Dexterity",
+        "level": "C1",
+        "definition": "Skill in performing tasks, especially with the hands.",
+        "example": "Playing computer games can improve your manual dexterity."
+    },
+    {
+        "word": "Exacerbate",
+        "level": "C1",
+        "definition": "To make worse (a problem, bad situation, negative feeling, etc.); aggravate; exasperate.",
+        "example": "The proposed shutdown would exacerbate unemployment problems."
+    },
+    {
+        "word": "Feasible",
+        "level": "C1",
+        "definition": "Able to be done in practice.",
+        "example": "His plan to rid trafalgar square of pigeons by bringing in peregrine falcons to eat them was dismissed as not feasible."
+    },
+    {
+        "word": "Garrulous",
+        "level": "C1",
+        "definition": "Excessively or tiresomely talkative.",
+        "example": "I learned the word 'garrulous' today."
+    },
+    {
+        "word": "Impetuous",
+        "level": "C1",
+        "definition": "Making arbitrary decisions, especially in an impulsive and forceful manner.",
+        "example": "I learned the word 'impetuous' today."
+    },
+    {
+        "word": "Juxtapose",
+        "level": "C1",
+        "definition": "To place side by side, especially for contrast or comparison.",
+        "example": "I learned the word 'juxtapose' today."
+    },
+    {
+        "word": "Lethargic",
+        "level": "C1",
+        "definition": "Sluggish, slow",
+        "example": "I learned the word 'lethargic' today."
+    },
+    {
+        "word": "Myopic",
+        "level": "C1",
+        "definition": "Near-sighted; unable to see distant objects unaided",
+        "example": "A stronger prescription for myopic night drivers is often needed."
+    },
+    {
+        "word": "Nefarious",
+        "level": "C1",
+        "definition": "Sinful, villainous, criminal, or wicked, especially when noteworthy or notorious for such characteristics.",
+        "example": "Aliens have a nefarious connotation in many science fiction books."
+    },
+    {
+        "word": "Obfuscate",
+        "level": "C1",
+        "definition": "To deliberately make more confusing in order to conceal the truth.",
+        "example": "Before leaving the scene, the murderer set a fire in order to obfuscate any evidence of their identity."
+    },
+    {
+        "word": "Pedantic",
+        "level": "C1",
+        "definition": "Like a pedant, overly concerned with formal rules and trivial points of learning.",
+        "example": "I learned the word 'pedantic' today."
+    },
+    {
+        "word": "Quixotic",
+        "level": "C1",
+        "definition": "Possessing or acting with the desire to do noble and romantic deeds, without thought of realism and practicality; exceedingly idealistic.",
+        "example": "I learned the word 'quixotic' today."
+    },
+    {
+        "word": "Rhetoric",
+        "level": "C1",
+        "definition": "Meaningless language with an exaggerated style intended to impress.",
+        "example": "It’s only so much rhetoric."
+    },
+    {
+        "word": "Aberration",
+        "level": "C2",
+        "definition": "The act of wandering; deviation from truth, moral rectitude; abnormal; divergence from the straight, correct, proper, normal, or from the natural state.",
+        "example": "Aberration of character"
+    },
+    {
+        "word": "Capricious",
+        "level": "C2",
+        "definition": "Impulsive and unpredictable; determined by chance, impulse, or whim",
+        "example": "I almost died in a capricious winter storm."
+    },
+    {
+        "word": "Ephemeral",
+        "level": "C2",
+        "definition": "Something which lasts for a short period of time.",
+        "example": "I learned the word 'ephemeral' today."
+    },
+    {
+        "word": "Fastidious",
+        "level": "C2",
+        "definition": "Excessively particular, demanding, or fussy about details, especially about tidiness and cleanliness.",
+        "example": "I learned the word 'fastidious' today."
+    },
+    {
+        "word": "Iconoclast",
+        "level": "C2",
+        "definition": "One who destroys religious images or icons, especially an opponent of the Orthodox Church in the 8th and 9th centuries, or a Puritan during the European Reformation.",
+        "example": "I learned the word 'iconoclast' today."
+    },
+    {
+        "word": "Cacophony",
+        "level": "C2",
+        "definition": "A mix of discordant sounds; dissonance.",
+        "example": "I learned the word 'cacophony' today."
+    },
+    {
+        "word": "Ebullient",
+        "level": "C2",
+        "definition": "Enthusiastic; high-spirited.",
+        "example": "I learned the word 'ebullient' today."
+    },
+    {
+        "word": "Facetious",
+        "level": "C2",
+        "definition": "Treating serious issues with (often deliberately) inappropriate humour; flippant.",
+        "example": "Robbie's joke about heather's appearance was just him being facetious."
+    },
+    {
+        "word": "Gregarious",
+        "level": "C2",
+        "definition": "(of a person) Describing one who enjoys being in crowds and socializing.",
+        "example": "I learned the word 'gregarious' today."
+    },
+    {
+        "word": "Hackneyed",
+        "level": "C2",
+        "definition": "Repeated too often.",
+        "example": "The sermon was full of hackneyed phrases and platitudes."
+    },
+    {
+        "word": "Idyllic",
+        "level": "C2",
+        "definition": "An idyllic state or situation. (A substantive use of the adjective)",
+        "example": "I learned the word 'idyllic' today."
+    },
+    {
+        "word": "Jargon",
+        "level": "C2",
+        "definition": "A technical terminology unique to a particular subject.",
+        "example": "I learned the word 'jargon' today."
+    },
+    {
+        "word": "Knell",
+        "level": "C2",
+        "definition": "The sound of a bell knelling; a toll (particularly one signalling a death).",
+        "example": "I learned the word 'knell' today."
+    },
+    {
+        "word": "Lackadaisical",
+        "level": "C2",
+        "definition": "Showing no interest, vigor, determination, or enthusiasm.",
+        "example": "The lackadaisical look on his face"
+    },
+    {
+        "word": "Magnanimous",
+        "level": "C2",
+        "definition": "Noble and generous in spirit.",
+        "example": "He thinks himself ardent, impulsive, passionate, magnanimous — capable of boundless enthusiasm for an idea or a sentiment."
+    },
+    {
+        "word": "Nonchalant",
+        "level": "C2",
+        "definition": "Casually calm and relaxed.",
+        "example": "We handled the whole frenetic situation with a nonchalant attitude."
+    },
+    {
+        "word": "Obsequious",
+        "level": "C2",
+        "definition": "Obedient; compliant with someone else's orders or wishes.",
+        "example": "I learned the word 'obsequious' today."
+    },
+    {
+        "word": "Panacea",
+        "level": "C2",
+        "definition": "Something that will solve all problems.",
+        "example": "A monorail will be a panacea for our traffic woes."
+    },
+    {
+        "word": "Quandary",
+        "level": "C2",
+        "definition": "A state of not knowing what to decide; a state of difficulty or perplexity; a state of uncertainty, hesitation or puzzlement.",
+        "example": "I learned the word 'quandary' today."
+    },
+    {
+        "word": "Recalcitrant",
+        "level": "C2",
+        "definition": "A person who is recalcitrant.",
+        "example": "I learned the word 'recalcitrant' today."
+    },
+    {
+        "word": "Stoic",
+        "level": "C2",
+        "definition": "Proponent of stoicism, a school of thought, from in 300 B.C.E. up to about the time of Marcus Aurelius, who holds that by cultivating an understanding of the logos, or natural law, one can be free of suffering.",
+        "example": "I learned the word 'stoic' today."
+    },
+    {
+        "word": "Trepidation",
+        "level": "C2",
+        "definition": "A fearful state; a state of concern or hesitation.",
+        "example": "I decided, with considerable trepidation, to let him drive my car without me."
+    },
+    {
+        "word": "Unctuous",
+        "level": "C2",
+        "definition": "(of a liquid or substance) Oily or greasy.",
+        "example": "I learned the word 'unctuous' today."
+    },
+    {
+        "word": "Vacillate",
+        "level": "C2",
+        "definition": "To sway unsteadily from one side to the other; oscillate.",
+        "example": "I learned the word 'vacillate' today."
+    },
+    {
+        "word": "Winsome",
+        "level": "C2",
+        "definition": "Charming, engaging, winning; inspiring approval and trust, especially if in an innocent manner.",
+        "example": "I learned the word 'winsome' today."
+    },
+    {
+        "word": "Xenophobia",
+        "level": "C2",
+        "definition": "A fear of strangers or foreigners.",
+        "example": "I learned the word 'xenophobia' today."
+    },
+    {
+        "word": "Yoke",
+        "level": "C2",
+        "definition": "Frame around the neck, and related senses.",
+        "example": "I learned the word 'yoke' today."
+    },
+    {
+        "word": "Zephyr",
+        "level": "C2",
+        "definition": "A light wind from the west.",
+        "example": "I learned the word 'zephyr' today."
+    },
+    {
+        "word": "Alacrity",
+        "level": "C2",
+        "definition": "Eagerness; liveliness; enthusiasm.",
+        "example": "I learned the word 'alacrity' today."
+    },
+    {
+        "word": "Bellicose",
+        "level": "C2",
+        "definition": "Warlike in nature; aggressive; hostile.",
+        "example": "I learned the word 'bellicose' today."
+    },
+    {
+        "word": "Chicanery",
+        "level": "C2",
+        "definition": "Deception by use of trickery, quibbling, or subterfuge.",
+        "example": "I learned the word 'chicanery' today."
+    },
+    {
+        "word": "Deleterious",
+        "level": "C2",
+        "definition": "Harmful often in a subtle or unexpected way.",
+        "example": "Deleterious effects"
+    },
+    {
+        "word": "Enervate",
+        "level": "C2",
+        "definition": "To reduce strength or energy; debilitate.",
+        "example": "After being laid off three times in a row, she felt too enervated to look for another job."
+    },
+    {
+        "word": "Fatuous",
+        "level": "C2",
+        "definition": "Obnoxiously stupid, vacantly silly, content in one's foolishness.",
+        "example": "I learned the word 'fatuous' today."
+    },
+    {
+        "word": "Gauche",
+        "level": "C2",
+        "definition": "Awkward or lacking in social graces; bumbling.",
+        "example": "I learned the word 'gauche' today."
+    },
+    {
+        "word": "Hubris",
+        "level": "C2",
+        "definition": "Excessive pride, presumption or arrogance (originally toward the gods).",
+        "example": "I learned the word 'hubris' today."
+    },
+    {
+        "word": "Incognito",
+        "level": "C2",
+        "definition": "One unknown or in disguise, or under an assumed character or name.",
+        "example": "I learned the word 'incognito' today."
+    },
+    {
+        "word": "Jejune",
+        "level": "C2",
+        "definition": "(now rare) Not nutritious.",
+        "example": "I learned the word 'jejune' today."
+    },
+    {
+        "word": "Kinetic",
+        "level": "C2",
+        "definition": "Relating to motion",
+        "example": "I learned the word 'kinetic' today."
+    },
+    {
+        "word": "Loquacious",
+        "level": "C2",
+        "definition": "Talkative; chatty.",
+        "example": "I learned the word 'loquacious' today."
+    },
+    {
+        "word": "Lugubrious",
+        "level": "C2",
+        "definition": "Gloomy, mournful or dismal, especially to an exaggerated degree.",
+        "example": "His client’s lugubrious expression tipped off the detective that something lurked beneath her optimistic words."
+    },
+    {
+        "word": "Mendacious",
+        "level": "C2",
+        "definition": "(of a person) Lying, untruthful or dishonest.",
+        "example": "I learned the word 'mendacious' today."
+    },
+    {
+        "word": "Nadir",
+        "level": "C2",
+        "definition": "The axis of a projected conical shadow; the direction of the force of gravity at a location; down.",
+        "example": "The nadir of the sun is the axis of the shadow projected by the earth."
+    },
+    {
+        "word": "Obdurate",
+        "level": "C2",
+        "definition": "To harden; to obdure.",
+        "example": "I learned the word 'obdurate' today."
+    },
+    {
+        "word": "Parsimonious",
+        "level": "C2",
+        "definition": "Exhibiting parsimony; sparing in the expenditure of money; frugal to excess.",
+        "example": "I learned the word 'parsimonious' today."
+    },
+    {
+        "word": "Querulous",
+        "level": "C2",
+        "definition": "Often complaining; suggesting a complaint in expression; fretful, whining.",
+        "example": "I learned the word 'querulous' today."
+    },
+    {
+        "word": "Sagacious",
+        "level": "C2",
+        "definition": "Having or showing keen discernment, sound judgment, and farsightedness; mentally shrewd.",
+        "example": "I learned the word 'sagacious' today."
+    },
+    {
+        "word": "Truculent",
+        "level": "C2",
+        "definition": "Cruel or savage.",
+        "example": "The truculent soldiers gave us a steely-eyed stare."
+    },
+    {
+        "word": "Usurp",
+        "level": "C2",
+        "definition": "To seize power from another, usually by illegitimate means.",
+        "example": "I learned the word 'usurp' today."
+    },
+    {
+        "word": "Vicarious",
+        "level": "C2",
+        "definition": "Experienced or gained by taking in another person’s experience, rather than through first-hand experience, such as through watching or reading.",
+        "example": "People experience vicarious pleasures through watching television."
     }
 ]
