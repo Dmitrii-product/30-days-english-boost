@@ -50,8 +50,9 @@ levels_words = {
 
 def get_word_data(word, level):
     definition = f"A {level} level English word."
-    example = f"I learned the word '{word}' today."
-    
+    example = None
+    best_example = None
+
     url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
@@ -59,21 +60,39 @@ def get_word_data(word, level):
             data = json.loads(response.read().decode())
             meanings = data[0].get('meanings', [])
             if meanings:
-                # Try to find a definition with an example
-                found_def = False
+                # Use the first definition we find
+                definition = meanings[0].get('definitions', [{}])[0].get('definition', definition)
+
+                # Search ALL meanings and ALL definitions for any real example
                 for meaning in meanings:
                     for d in meaning.get('definitions', []):
-                        if not found_def:
-                            definition = d.get('definition', definition)
-                            found_def = True
                         if d.get('example'):
-                            definition = d.get('definition')
-                            example = d.get('example')
-                            return definition, example
-    except Exception as e:
+                            # Prefer examples that actually contain the word itself
+                            ex = d.get('example')
+                            best_definition = d.get('definition', definition)
+                            if word.lower() in ex.lower():
+                                # Best case: example contains the word
+                                return best_definition, ex
+                            elif best_example is None:
+                                # Save first example found as fallback
+                                best_example = ex
+                                definition = best_definition
+    except Exception:
         pass
-        
-    return definition, example
+
+    if best_example:
+        return definition, best_example
+
+    # Smart fallback: construct a natural example from the definition
+    fallback = f"Someone who is {word.lower()} tends to {definition[:60].rstrip('.').lower()}."
+    if "to " in definition[:3].lower():
+        # Verb — use "She decided to..." style
+        fallback = f"She decided to {word.lower()} the situation carefully."
+    elif definition[0].isupper() and "ing" not in word:
+        # Noun/adj — use "The {word} was..." style
+        fallback = f"The {word.lower()} of her argument was immediately clear to everyone."
+
+    return definition, fallback
 
 def main():
     all_words_data = []
