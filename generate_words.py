@@ -48,6 +48,31 @@ levels_words = {
     ]
 }
 
+a1_a2_translations = {
+    # A1
+    "apple": "яблоко", "book": "книга", "cat": "кот", "dog": "собака", "elephant": "слон", 
+    "fish": "рыба", "girl": "девочка", "house": "дом", "ice": "лёд", "juice": "сок",
+    "kite": "воздушный змей", "lion": "лев", "monkey": "обезьяна", "nut": "орех", "orange": "апельсин", 
+    "pig": "свинья", "queen": "королева", "rabbit": "кролик", "sun": "солнце", "tree": "дерево",
+    "umbrella": "зонт", "van": "фургон", "water": "вода", "xylophone": "ксилофон", "yellow": "жёлтый", 
+    "zebra": "зебра", "boy": "мальчик", "car": "машина", "door": "дверь", "egg": "яйцо",
+    "flower": "цветок", "grape": "виноград", "hat": "шляпа", "island": "остров", "jam": "варенье", 
+    "key": "ключ", "leaf": "лист", "mouse": "мышь", "nose": "нос", "owl": "сова",
+    "pen": "ручка", "quilt": "одеяло", "ring": "кольцо", "star": "звезда", "table": "стол", 
+    "uncle": "дядя", "vase": "ваза", "window": "окно", "box": "коробка", "yard": "двор",
+    # A2
+    "arrive": "прибывать", "beautiful": "красивый", "careful": "осторожный", "decide": "решать", "empty": "пустой", 
+    "famous": "знаменитый", "guess": "угадывать", "huge": "огромный", "invite": "приглашать", "joke": "шутка",
+    "kiss": "поцелуй", "loud": "громкий", "meal": "приём пищи", "nervous": "нервный", "offer": "предлагать", 
+    "promise": "обещать", "quiet": "тихий", "relax": "отдыхать", "share": "делиться", "tired": "уставший",
+    "useful": "полезный", "village": "деревня", "wake": "просыпаться", "accept": "принимать", "borrow": "одалживать", 
+    "choose": "выбирать", "describe": "описывать", "earn": "зарабатывать", "forget": "забывать", "happen": "случаться",
+    "improve": "улучшать", "join": "присоединяться", "keep": "хранить", "laugh": "смеяться", "mention": "упоминать", 
+    "notice": "замечать", "own": "владеть", "prepare": "готовиться", "repair": "чинить", "spend": "тратить",
+    "teach": "учить", "understand": "понимать", "visit": "посещать", "worry": "волноваться", "agree": "соглашаться", 
+    "believe": "верить", "cancel": "отменять", "dream": "мечтать", "explain": "объяснять", "fail": "потерпеть неудачу"
+}
+
 def get_word_data(word, level):
     definition = f"A {level} level English word."
     example = None
@@ -102,6 +127,12 @@ def main():
     for level, words in levels_words.items():
         for word in words[:50]:
             definition, example = get_word_data(word, level)
+            
+            # Add Russian translation for A1 and A2 level words
+            if level in ["A1", "A2"] and word.lower() in a1_a2_translations:
+                ru_trans = a1_a2_translations[word.lower()]
+                definition = f"{definition} ({ru_trans})"
+                
             all_words_data.append({
                 "word": word.capitalize(),
                 "level": level,
