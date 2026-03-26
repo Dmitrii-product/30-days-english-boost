@@ -145,6 +145,8 @@ async def test_send(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await send_daily_words(context)
     await update.message.reply_text("Sent daily words to all users.")
 
+import time as time_module
+
 def main():
     db.init_db()
     
@@ -152,24 +154,34 @@ def main():
         print("Please set the TOKEN environment variable before running.")
         return
         
-    # Start web server in a background thread
+    # Start web server in a background thread (only once)
     threading.Thread(target=run_web_server, daemon=True).start()
     print("Flask web server started in background.")
 
-    application = ApplicationBuilder().token(TOKEN).build()
-    
-    application.add_handler(CommandHandler("start", start))
-    application.add_handler(CommandHandler("level", level_command))
-    application.add_handler(CommandHandler("test", test_send))
-    application.add_handler(CallbackQueryHandler(button_callback))
+    retry_delay = 5
+    while True:
+        try:
+            application = ApplicationBuilder().token(TOKEN).build()
+            
+            application.add_handler(CommandHandler("start", start))
+            application.add_handler(CommandHandler("level", level_command))
+            application.add_handler(CommandHandler("test", test_send))
+            application.add_handler(CallbackQueryHandler(button_callback))
 
-    # Schedule daily message at 11:00 Tashkent time (UTC+5), which is 06:00 UTC.
-    t = datetime.time(hour=6, minute=0, tzinfo=datetime.timezone.utc)
-    # The JobQueue runs jobs based on UTC by default if no timezone is specified in datetime.
-    application.job_queue.run_daily(send_daily_words, time=t)
-    
-    print("Bot is starting. Press Ctrl+C to stop.")
-    application.run_polling()
+            # Schedule daily message at 11:00 Tashkent time (UTC+5), which is 06:00 UTC.
+            t = datetime.time(hour=6, minute=0, tzinfo=datetime.timezone.utc)
+            application.job_queue.run_daily(send_daily_words, time=t)
+            
+            print("Bot is starting. Press Ctrl+C to stop.")
+            retry_delay = 5  # Reset delay on successful start
+            application.run_polling(drop_pending_updates=True)
+        except KeyboardInterrupt:
+            print("Bot stopped by user.")
+            break
+        except Exception as e:
+            print(f"Bot crashed with error: {e}. Restarting in {retry_delay}s...")
+            time_module.sleep(retry_delay)
+            retry_delay = min(retry_delay * 2, 60)  # Exponential backoff, max 60s
 
 if __name__ == '__main__':
     main()
