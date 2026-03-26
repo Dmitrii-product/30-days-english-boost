@@ -163,8 +163,8 @@ def main():
     application.add_handler(CommandHandler("test", test_send))
     application.add_handler(CallbackQueryHandler(button_callback))
 
-    # Schedule daily message at 09:00 Tashkent time (UTC+5), which is 04:00 UTC.
-    t = datetime.time(hour=4, minute=0, tzinfo=datetime.timezone.utc)
+    # Schedule daily message at 11:00 Tashkent time (UTC+5), which is 06:00 UTC.
+    t = datetime.time(hour=6, minute=0, tzinfo=datetime.timezone.utc)
     # The JobQueue runs jobs based on UTC by default if no timezone is specified in datetime.
     application.job_queue.run_daily(send_daily_words, time=t)
     
