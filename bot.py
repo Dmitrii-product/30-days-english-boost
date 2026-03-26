@@ -9,6 +9,7 @@ from telegram.ext import (
     CallbackQueryHandler,
     ContextTypes,
 )
+from telegram.error import Conflict
 import db
 from dotenv import load_dotenv
 import threading
@@ -178,6 +179,9 @@ def main():
         except KeyboardInterrupt:
             print("Bot stopped by user.")
             break
+        except Conflict:
+            print("Conflict error: another instance is running. Waiting 60s for it to terminate...")
+            time_module.sleep(60)
         except Exception as e:
             print(f"Bot crashed with error: {e}. Restarting in {retry_delay}s...")
             time_module.sleep(retry_delay)
