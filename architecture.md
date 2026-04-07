@@ -47,3 +47,6 @@ No secrets should ever be hardcoded. They are read from environment variables:
 - `SUPABASE_URL`
 - `SUPABASE_KEY`
 - `ENCRYPTION_KEY`
+
+### 6. Development Practices
+- **`words.json` Updates:** New commits shouldn't rewrite `words.json` (i.e., do not run `generate_words.py` on every commit) unless it is explicitly a part of the requirements for that update.

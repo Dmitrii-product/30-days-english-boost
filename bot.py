@@ -195,7 +195,12 @@ async def send_golden_list(context: ContextTypes.DEFAULT_TYPE, chat_id: int):
         keyboard.append([InlineKeyboardButton(text, callback_data=f"vocab_{short_w}")])
 
     reply_markup = InlineKeyboardMarkup(keyboard)
-    msg = "🏆 *Your Golden List*\n\nReview your vocabulary over the past 2 weeks and all unlearned words. Tap a word to toggle its status:"
+    msg = (
+        "🏆 *Your Golden List*\n\n"
+        "Review your vocabulary over the past 2 weeks and all unlearned words. "
+        "Tap a word to toggle its status:\n\n"
+        "(✅ = Learned, ❌ = Unlearned)"
+    )
     
     try:
         await context.bot.send_message(chat_id=chat_id, text=msg, reply_markup=reply_markup, parse_mode='Markdown')
