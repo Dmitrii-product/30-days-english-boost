@@ -85,9 +85,13 @@ async def send_single_word(context: ContextTypes.DEFAULT_TYPE, chat_id: int, lev
         f"--- \n"
         f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence today?"
     )
+    bot_username = context.bot.username
+    keyboard = [[InlineKeyboardButton("🤖 View Bot", url=f"https://t.me/{bot_username}")]]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    
     try:
         db.add_word_to_vocabulary(chat_id, entry['word'])
-        await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown', reply_markup=reply_markup)
     except Exception as e:
         print(f"Failed to send to {chat_id}: {e}")
 
@@ -161,10 +165,14 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE):
             f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence today?"
         )
         
+        bot_username = context.bot.username
+        keyboard = [[InlineKeyboardButton("🤖 View Bot", url=f"https://t.me/{bot_username}")]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
         for chat_id in chat_ids:
             try:
                 db.add_word_to_vocabulary(chat_id, entry['word'])
-                await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
+                await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown', reply_markup=reply_markup)
             except Exception as e:
                 print(f"Failed to send to {chat_id}: {e}")
 
