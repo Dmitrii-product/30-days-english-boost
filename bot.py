@@ -86,6 +86,7 @@ async def send_single_word(context: ContextTypes.DEFAULT_TYPE, chat_id: int, lev
         f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence today?"
     )
     try:
+        db.add_word_to_vocabulary(chat_id, entry['word'])
         await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
     except Exception as e:
         print(f"Failed to send to {chat_id}: {e}")
@@ -101,6 +102,31 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         db.add_or_update_user(user_id, new_level)
         await query.edit_message_text(f"✅ Your level has been updated to *{new_level}*!\nYou'll receive words for this level daily.", parse_mode='Markdown')
         await send_single_word(context, user_id, new_level)
+    elif data.startswith("vocab_"):
+        word = data.split("_", 1)[1]
+        user_id = update.effective_chat.id
+        current_status = db.get_word_status(user_id, word)
+        
+        if current_status is not None:
+            new_status = not current_status
+            db.update_word_status(user_id, word, new_status)
+            
+            # Rebuild keyboard
+            new_keyboard = []
+            for row in update.callback_query.message.reply_markup.inline_keyboard:
+                new_row = []
+                for button in row:
+                    if button.callback_data == data:
+                        new_text = f"✅ {word}" if new_status else f"❌ {word}"
+                        new_row.append(InlineKeyboardButton(new_text, callback_data=data))
+                    else:
+                        new_row.append(button)
+                new_keyboard.append(new_row)
+                
+            try:
+                await update.callback_query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(new_keyboard))
+            except Exception as e:
+                print(f"Failed to update golden list keyboard: {e}")
 
 async def send_daily_words(context: ContextTypes.DEFAULT_TYPE):
     with open('words.json', 'r', encoding='utf-8') as f:
@@ -137,9 +163,53 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE):
         
         for chat_id in chat_ids:
             try:
+                db.add_word_to_vocabulary(chat_id, entry['word'])
                 await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
             except Exception as e:
                 print(f"Failed to send to {chat_id}: {e}")
+
+async def send_golden_list(context: ContextTypes.DEFAULT_TYPE, chat_id: int):
+    recent, unlearned = db.get_golden_list(chat_id)
+    if not recent and not unlearned:
+        try:
+            await context.bot.send_message(chat_id=chat_id, text="You haven't added any words to your vocabulary yet!")
+        except Exception:
+            pass
+        return
+
+    # Combine all unique words
+    all_words = recent + unlearned
+    seen = set()
+    unique_words = []
+    for w, learned in all_words:
+        if w not in seen:
+            seen.add(w)
+            unique_words.append((w, learned))
+            
+    unique_words = unique_words[:100]
+
+    keyboard = []
+    for w, learned in unique_words:
+        short_w = w[:50]
+        text = f"✅ {w}" if learned else f"❌ {w}"
+        keyboard.append([InlineKeyboardButton(text, callback_data=f"vocab_{short_w}")])
+
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    msg = "🏆 *Your Golden List*\n\nReview your vocabulary over the past 2 weeks and all unlearned words. Tap a word to toggle its status:"
+    
+    try:
+        await context.bot.send_message(chat_id=chat_id, text=msg, reply_markup=reply_markup, parse_mode='Markdown')
+    except Exception as e:
+        print(f"Failed to send golden list to {chat_id}: {e}")
+
+async def goldenlist_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = update.effective_chat.id
+    await send_golden_list(context, user_id)
+
+async def send_all_golden_lists(context: ContextTypes.DEFAULT_TYPE):
+    users = db.get_all_users()
+    for chat_id, _ in users:
+        await send_golden_list(context, chat_id)
 
 async def test_send(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Hidden command to test sending a word immediately
@@ -167,11 +237,16 @@ def main():
             application.add_handler(CommandHandler("start", start))
             application.add_handler(CommandHandler("level", level_command))
             application.add_handler(CommandHandler("test", test_send))
+            application.add_handler(CommandHandler("goldenlist", goldenlist_command))
             application.add_handler(CallbackQueryHandler(button_callback))
 
             # Schedule daily message at 11:00 Tashkent time (UTC+5), which is 06:00 UTC.
             t = datetime.time(hour=6, minute=0, tzinfo=datetime.timezone.utc)
             application.job_queue.run_daily(send_daily_words, time=t)
+            
+            # Schedule bi-weekly golden list
+            t_golden = datetime.time(hour=10, minute=0, tzinfo=datetime.timezone.utc)
+            application.job_queue.run_repeating(send_all_golden_lists, interval=datetime.timedelta(days=14), first=t_golden)
             
             print("Bot is starting. Press Ctrl+C to stop.")
             retry_delay = 5  # Reset delay on successful start

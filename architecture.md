@@ -11,6 +11,14 @@
     - `encrypted_id` (Text) - The user's Fernet-encrypted Telegram ID.
     - `level` (Text) - The chosen vocabulary level (A1, A2, B1, B2, C1, C2).
 
+  - Table: `vocabulary`
+  - Columns:
+    - `id` (BigInt, Primary Key)
+    - `user_hash` (Text, Foreign Key references users.id_hash)
+    - `word` (Text) - The English word added to the vocabulary list.
+    - `is_learned` (Boolean) - Whether the user has marked it as learned.
+    - `added_at` (Timestamp) - The timestamp of when it was added.
+
 ### 2. Security (User ID Encryption)
 - **Tool:** `cryptography.fernet` (Symmetric encryption).
 - **Why:** To completely mask the Telegram chat IDs of the bot's users from the database. Even if the Supabase database is compromised, the attackers will receive indistinguishable encrypted text, not the actual IDs.
