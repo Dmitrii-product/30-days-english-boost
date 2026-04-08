@@ -3604,5 +3604,1407 @@
         "level": "C2",
         "definition": "Someone or something that encourages progress or change.",
         "example": "Economic development and integration are working as a catalyst for peace."
+    },
+    {
+        "word": "Ant",
+        "level": "A1",
+        "definition": "Social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers (муравей)",
+        "example": "Can you use 'ant' in a sentence?"
+    },
+    {
+        "word": "Bat",
+        "level": "A1",
+        "definition": "Nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate (летучая мышь)",
+        "example": "He was at bat when it happened"
+    },
+    {
+        "word": "Bus",
+        "level": "A1",
+        "definition": "A vehicle carrying many passengers; used for public transport (автобус)",
+        "example": "He always rode the bus to work",
+        "see_also": [
+            "omnibus"
+        ]
+    },
+    {
+        "word": "Dance",
+        "level": "A1",
+        "definition": "An artistic form of nonverbal communication (танец)",
+        "example": "The young girl danced into the room"
+    },
+    {
+        "word": "Family",
+        "level": "A1",
+        "definition": "A social unit living together (семья)",
+        "example": "He moved his family to virginia",
+        "see_also": [
+            "householder",
+            "home"
+        ]
+    },
+    {
+        "word": "Fun",
+        "level": "A1",
+        "definition": "Activities that are enjoyable or amusing (веселье)",
+        "example": "I do it for the fun of it",
+        "see_also": [
+            "funny"
+        ]
+    },
+    {
+        "word": "Goat",
+        "level": "A1",
+        "definition": "Any of numerous agile ruminants related to sheep but having a beard and straight horns (коза)",
+        "example": "Can you use 'goat' in a sentence?"
+    },
+    {
+        "word": "Happy",
+        "level": "A1",
+        "definition": "Enjoying or showing or marked by joy or pleasure (счастливый)",
+        "example": "A happy smile",
+        "see_also": [
+            "happiness"
+        ]
+    },
+    {
+        "word": "Hot",
+        "level": "A1",
+        "definition": "Used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning (горячий)",
+        "example": "Hot stove",
+        "see_also": [
+            "hotness"
+        ]
+    },
+    {
+        "word": "Igloo",
+        "level": "A1",
+        "definition": "An eskimo hut; usually built of blocks (of sod or snow) in the shape of a dome (иглу)",
+        "example": "Can you use 'igloo' in a sentence?"
+    },
+    {
+        "word": "Jacket",
+        "level": "A1",
+        "definition": "A short coat (куртка)",
+        "example": "Phonograph records were sold in cardboard jackets"
+    },
+    {
+        "word": "Jump",
+        "level": "A1",
+        "definition": "A sudden and decisive increase (прыгать)",
+        "example": "A jump in attendance"
+    },
+    {
+        "word": "Kangaroo",
+        "level": "A1",
+        "definition": "Any of several herbivorous leaping marsupials of australia and new guinea having large powerful hind legs and a long thick tail (кенгуру)",
+        "example": "Can you use 'kangaroo' in a sentence?"
+    },
+    {
+        "word": "Lamp",
+        "level": "A1",
+        "definition": "An artificial source of visible illumination (лампа)",
+        "example": "Can you use 'lamp' in a sentence?"
+    },
+    {
+        "word": "Log",
+        "level": "A1",
+        "definition": "A segment of the trunk of a tree when stripped of branches (бревно)",
+        "example": "They kept a log of all transmission by the radio station"
+    },
+    {
+        "word": "Map",
+        "level": "A1",
+        "definition": "A diagrammatic representation of the earth's surface (or part of it) (карта)",
+        "example": "Map the genes"
+    },
+    {
+        "word": "Mat",
+        "level": "A1",
+        "definition": "A thick flat pad used as a floor covering (коврик)",
+        "example": "A mat of weeds and grass"
+    },
+    {
+        "word": "Name",
+        "level": "A1",
+        "definition": "A language unit by which a person or thing is known (имя)",
+        "example": "His name really is george washington"
+    },
+    {
+        "word": "Nest",
+        "level": "A1",
+        "definition": "A structure in which animals lay eggs or give birth to their young (гнездо)",
+        "example": "A machine-gun nest"
+    },
+    {
+        "word": "Net",
+        "level": "A1",
+        "definition": "The excess of revenues over outlays in a given period of time (including depreciation and other non-cash expenses) (сеть)",
+        "example": "Net profit",
+        "see_also": [
+            "profit",
+            "profiteer"
+        ]
+    },
+    {
+        "word": "Open",
+        "level": "A1",
+        "definition": "A clear or unobstructed space or expanse of land or water (открытый)",
+        "example": "Finally broke out of the forest into the open",
+        "see_also": [
+            "clear"
+        ]
+    },
+    {
+        "word": "Paint",
+        "level": "A1",
+        "definition": "A substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating (рисовать)",
+        "example": "Artists use `paint' and `pigment' interchangeably"
+    },
+    {
+        "word": "Read",
+        "level": "A1",
+        "definition": "Interpret something that is written or printed (читать)",
+        "example": "Read the advertisement",
+        "see_also": [
+            "reading",
+            "reader"
+        ]
+    },
+    {
+        "word": "Red",
+        "level": "A1",
+        "definition": "A tributary of the mississippi river that flows eastward from texas along the southern boundary of oklahoma and through louisiana (красный)",
+        "example": "The company operated in the red last year"
+    },
+    {
+        "word": "Sad",
+        "level": "A1",
+        "definition": "Experiencing or showing sorrow or unhappiness; ; - christina rossetti (грустный)",
+        "example": "Feeling sad because his dog had died",
+        "see_also": [
+            "sadness"
+        ]
+    },
+    {
+        "word": "Snake",
+        "level": "A1",
+        "definition": "Limbless scaly elongate reptile; some are venomous (змея)",
+        "example": "The army snaked through the jungle",
+        "see_also": [
+            "snaky"
+        ]
+    },
+    {
+        "word": "Tiger",
+        "level": "A1",
+        "definition": "A fierce or audacious person (тигр)",
+        "example": "He's a tiger on the tennis court"
+    },
+    {
+        "word": "Under",
+        "level": "A1",
+        "definition": "Located below or beneath something else (под)",
+        "example": "The under parts of a machine"
+    },
+    {
+        "word": "Walk",
+        "level": "A1",
+        "definition": "The act of traveling by foot (гулять)",
+        "example": "Walking is a healthy form of exercise"
+    },
+    {
+        "word": "Year",
+        "level": "A1",
+        "definition": "A period of time containing 365 (or 366) days (год)",
+        "example": "She is 4 years old",
+        "see_also": [
+            "yearly"
+        ]
+    },
+    {
+        "word": "Zoo",
+        "level": "A1",
+        "definition": "The facility where wild animals are housed for exhibition (зоопарк)",
+        "example": "Can you use 'zoo' in a sentence?"
+    },
+    {
+        "word": "Arm",
+        "level": "A1",
+        "definition": "A human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb (рука)",
+        "example": "He was licensed to carry a weapon",
+        "see_also": [
+            "armlet"
+        ]
+    },
+    {
+        "word": "Bad",
+        "level": "A1",
+        "definition": "That which is below standard or expectations as of ethics or decency (плохой)",
+        "example": "Take the bad with the good"
+    },
+    {
+        "word": "Blue",
+        "level": "A1",
+        "definition": "The sky as viewed during daylight (синий)",
+        "example": "He shot an arrow into the blue"
+    },
+    {
+        "word": "Coat",
+        "level": "A1",
+        "definition": "An outer garment that has sleeves and covers the body from shoulder down; worn outdoors (пальто)",
+        "example": "A second coat of paint"
+    },
+    {
+        "word": "Day",
+        "level": "A1",
+        "definition": "Time for earth to make a complete rotation on its axis (день)",
+        "example": "Two days later they left",
+        "see_also": [
+            "daily"
+        ]
+    },
+    {
+        "word": "Ear",
+        "level": "A1",
+        "definition": "The sense organ for hearing and equilibrium (ухо)",
+        "example": "He had a keen ear"
+    },
+    {
+        "word": "Fat",
+        "level": "A1",
+        "definition": "A soft greasy substance occurring in organic tissue and consisting of a mixture of lipids (mostly triglycerides) (толстый)",
+        "example": "Pizza has too much fat"
+    },
+    {
+        "word": "Gold",
+        "level": "A1",
+        "definition": "A deep yellow color (золото)",
+        "example": "He admired the gold of her hair",
+        "see_also": [
+            "amber"
+        ]
+    },
+    {
+        "word": "Hair",
+        "level": "A1",
+        "definition": "A covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss (волосы)",
+        "example": "He combed his hair",
+        "see_also": [
+            "hairy"
+        ]
+    },
+    {
+        "word": "Idea",
+        "level": "A1",
+        "definition": "The content of cognition; the main thing you are thinking about (идея)",
+        "example": "It was not a good idea",
+        "see_also": [
+            "think",
+            "ideal",
+            "ideate"
+        ]
+    },
+    {
+        "word": "Job",
+        "level": "A1",
+        "definition": "The principal activity in your life that you do to earn money (работа)",
+        "example": "He's not in my line of business",
+        "see_also": [
+            "occupy"
+        ]
+    },
+    {
+        "word": "Kid",
+        "level": "A1",
+        "definition": "A young person of either sex (ребенок)",
+        "example": "They're just kids",
+        "see_also": [
+            "childly",
+            "childhood"
+        ]
+    },
+    {
+        "word": "Leg",
+        "level": "A1",
+        "definition": "A human limb; commonly used to refer to a whole limb but technically only the part of the limb between the knee and ankle (нога)",
+        "example": "He broke off one of the branches",
+        "see_also": [
+            "leggy"
+        ]
+    },
+    {
+        "word": "Mad",
+        "level": "A1",
+        "definition": "Roused to anger; - mark twain (сумасшедший)",
+        "example": "She gets mad when you wake her up so early",
+        "see_also": [
+            "huffiness",
+            "soreness",
+            "huff",
+            "madness"
+        ]
+    },
+    {
+        "word": "Pie",
+        "level": "A1",
+        "definition": "Dish baked in pastry-lined pan often with a pastry top (пирог)",
+        "example": "Can you use 'pie' in a sentence?"
+    },
+    {
+        "word": "Above",
+        "level": "A2",
+        "definition": "An earlier section of a written text (над)",
+        "example": "For instructions refer to the above"
+    },
+    {
+        "word": "Afraid",
+        "level": "A2",
+        "definition": "Filled with fear or apprehension (боящийся)",
+        "example": "Afraid even to turn his head"
+    },
+    {
+        "word": "Alone",
+        "level": "A2",
+        "definition": "Isolated from others (один)",
+        "example": "Could be alone in a crowded room",
+        "see_also": [
+            "aloneness"
+        ]
+    },
+    {
+        "word": "Angry",
+        "level": "A2",
+        "definition": "Feeling or showing anger (сердитый)",
+        "example": "Angry at the weather",
+        "see_also": [
+            "anger",
+            "angriness"
+        ]
+    },
+    {
+        "word": "Awake",
+        "level": "A2",
+        "definition": "Stop sleeping (бодрствующий)",
+        "example": "She woke up to the sound of the alarm clock",
+        "see_also": [
+            "awakening",
+            "wakening",
+            "arousal",
+            "waker"
+        ]
+    },
+    {
+        "word": "Bacon",
+        "level": "A2",
+        "definition": "Back and sides of a hog salted and dried or smoked; usually sliced thin and fried (бекон)",
+        "example": "Can you use 'bacon' in a sentence?"
+    },
+    {
+        "word": "Baker",
+        "level": "A2",
+        "definition": "Someone who bakes commercially (пекарь)",
+        "example": "Can you use 'baker' in a sentence?",
+        "see_also": [
+            "bake"
+        ]
+    },
+    {
+        "word": "Beach",
+        "level": "A2",
+        "definition": "An area of sand sloping down to the water of a sea or lake (пляж)",
+        "example": "Can you use 'beach' in a sentence?"
+    },
+    {
+        "word": "Blanket",
+        "level": "A2",
+        "definition": "Bedding that keeps a person warm in bed (одеяло)",
+        "example": "He pulled the covers over his head and went to sleep",
+        "see_also": [
+            "coverlet"
+        ]
+    },
+    {
+        "word": "Brave",
+        "level": "A2",
+        "definition": "A north american indian warrior (смелый)",
+        "example": "She braved the elements"
+    },
+    {
+        "word": "Brown",
+        "level": "A2",
+        "definition": "An orange of low brightness and saturation (коричневый)",
+        "example": "Brown the meat in the pan"
+    },
+    {
+        "word": "Brush",
+        "level": "A2",
+        "definition": "A dense growth of bushes (щетка)",
+        "example": "I had a brush with danger on my way to work",
+        "see_also": [
+            "brushy"
+        ]
+    },
+    {
+        "word": "Candy",
+        "level": "A2",
+        "definition": "A rich sweet made of flavored sugar and often combined with fruit or nuts (конфета)",
+        "example": "Can you use 'candy' in a sentence?"
+    },
+    {
+        "word": "Catch",
+        "level": "A2",
+        "definition": "A drawback or difficulty that is not readily evident (ловить)",
+        "example": "It sounds good but what's the catch?",
+        "see_also": [
+            "catchy"
+        ]
+    },
+    {
+        "word": "Cheap",
+        "level": "A2",
+        "definition": "Relatively low in price or charging low prices (дешевый)",
+        "example": "It would have been cheap at twice the price",
+        "see_also": [
+            "inexpensiveness",
+            "cheapness"
+        ]
+    },
+    {
+        "word": "Clean",
+        "level": "A2",
+        "definition": "A weightlift in which the barbell is lifted to shoulder height and then jerked overhead (чистый)",
+        "example": "Clean the turkey"
+    },
+    {
+        "word": "Climb",
+        "level": "A2",
+        "definition": "An upward slope or grade (as in a road) (лезть)",
+        "example": "The car couldn't make it up the rise",
+        "see_also": [
+            "raise",
+            "acclivitous",
+            "ascend"
+        ]
+    },
+    {
+        "word": "Cloud",
+        "level": "A2",
+        "definition": "Any collection of particles (e.g., smoke or dust) or gases that is visible (облако)",
+        "example": "His head was in the clouds"
+    },
+    {
+        "word": "Coast",
+        "level": "A2",
+        "definition": "The shore of a sea or ocean (побережье)",
+        "example": "The coast is clear",
+        "see_also": [
+            "coastal"
+        ]
+    },
+    {
+        "word": "Color",
+        "level": "A2",
+        "definition": "A visual attribute of things that results from the light they emit or transmit or reflect (цвет)",
+        "example": "A white color is made up of many different wavelengths of light",
+        "see_also": [
+            "colorist",
+            "colorize",
+            "colour"
+        ]
+    },
+    {
+        "word": "Count",
+        "level": "A2",
+        "definition": "Determine the number or amount of (считать)",
+        "example": "Can you count the books on your shelf?",
+        "see_also": [
+            "counter",
+            "numeration",
+            "enumeration",
+            "enumerator",
+            "number",
+            "numerable",
+            "countable",
+            "counting"
+        ]
+    },
+    {
+        "word": "Crazy",
+        "level": "A2",
+        "definition": "Someone deranged and possibly dangerous (сумасшедший)",
+        "example": "A man who had gone mad"
+    },
+    {
+        "word": "Cross",
+        "level": "A2",
+        "definition": "A wooden structure consisting of an upright post with a transverse piece (пересекать)",
+        "example": "That is his cross to bear"
+    },
+    {
+        "word": "Dirty",
+        "level": "A2",
+        "definition": "(of behavior or especially language) characterized by obscenity or indecency (грязный)",
+        "example": "Dirty words",
+        "see_also": [
+            "dirtiness"
+        ]
+    },
+    {
+        "word": "Dress",
+        "level": "A2",
+        "definition": "A one-piece garment for a woman; has skirt and bodice (платье)",
+        "example": "Battle dress",
+        "see_also": [
+            "frock"
+        ]
+    },
+    {
+        "word": "Drink",
+        "level": "A2",
+        "definition": "A single serving of a beverage (напиток)",
+        "example": "I asked for a hot drink"
+    },
+    {
+        "word": "Drive",
+        "level": "A2",
+        "definition": "The act of applying force to propel something (водить машину)",
+        "example": "After reaching the desired velocity the drive is cut off",
+        "see_also": [
+            "thrust"
+        ]
+    },
+    {
+        "word": "Early",
+        "level": "A2",
+        "definition": "At or near the beginning of a period of time or course of events or before the usual or expected time (рано)",
+        "example": "Early morning",
+        "see_also": [
+            "earliness"
+        ]
+    },
+    {
+        "word": "Eight",
+        "level": "A2",
+        "definition": "The cardinal number that is the sum of seven and one (восемь)",
+        "example": "Can you use 'eight' in a sentence?"
+    },
+    {
+        "word": "Enjoy",
+        "level": "A2",
+        "definition": "Derive or receive pleasure from; get enjoyment from; take pleasure in (наслаждаться)",
+        "example": "She relished her fame and basked in her glory",
+        "see_also": [
+            "enjoyment",
+            "enjoyer",
+            "relish"
+        ]
+    },
+    {
+        "word": "Enter",
+        "level": "A2",
+        "definition": "To come or go into (входить)",
+        "example": "The boat entered an area of shallow marshes",
+        "see_also": [
+            "entering",
+            "entrant",
+            "entry",
+            "entrance",
+            "entree"
+        ]
+    },
+    {
+        "word": "Every",
+        "level": "A2",
+        "definition": "(used of count nouns) each and all of the members of a group considered singly and without exception (каждый)",
+        "example": "Every person is mortal"
+    },
+    {
+        "word": "Extra",
+        "level": "A2",
+        "definition": "A minor actor in crowd scenes (дополнительный)",
+        "example": "He always carried extras in case of an emergency"
+    },
+    {
+        "word": "Fancy",
+        "level": "A2",
+        "definition": "Something many people believe that is false (фантазия)",
+        "example": "They have the illusion that i am very wealthy",
+        "see_also": [
+            "illusory",
+            "illusional",
+            "fantasize",
+            "fantasy"
+        ]
+    },
+    {
+        "word": "Fault",
+        "level": "A2",
+        "definition": "A wrong action attributable to bad judgment or ignorance or inattention (вина)",
+        "example": "I could understand his english in spite of his grammatical faults",
+        "see_also": [
+            "err",
+            "mistake",
+            "faulty"
+        ]
+    },
+    {
+        "word": "Fence",
+        "level": "A2",
+        "definition": "A barrier that serves to enclose an area (забор)",
+        "example": "Can you use 'fence' in a sentence?"
+    },
+    {
+        "word": "Field",
+        "level": "A2",
+        "definition": "A piece of land cleared of trees and usually enclosed (поле)",
+        "example": "He planted a field of wheat"
+    },
+    {
+        "word": "Fight",
+        "level": "A2",
+        "definition": "A hostile meeting of opposing military forces in the course of a war (бой)",
+        "example": "Grant won a decisive victory in the battle of chickamauga",
+        "see_also": [
+            "battle",
+            "engage"
+        ]
+    },
+    {
+        "word": "Final",
+        "level": "A2",
+        "definition": "An examination administered at the end of an academic term (финал)",
+        "example": "The final chapter"
+    },
+    {
+        "word": "First",
+        "level": "A2",
+        "definition": "The time at which something is supposed to begin (первый)",
+        "example": "They got an early start",
+        "see_also": [
+            "start"
+        ]
+    },
+    {
+        "word": "Flame",
+        "level": "A2",
+        "definition": "The process of combustion of inflammable materials producing heat and light and (often) smoke (пламя)",
+        "example": "Fire was one of our ancestors' first discoveries",
+        "see_also": [
+            "fiery",
+            "fire"
+        ]
+    },
+    {
+        "word": "Floor",
+        "level": "A2",
+        "definition": "The inside lower horizontal surface (as of a room, hallway, tent, or other structure) (пол)",
+        "example": "They needed rugs to cover the bare floors"
+    },
+    {
+        "word": "Flour",
+        "level": "A2",
+        "definition": "Fine powdery foodstuff obtained by grinding and sifting the meal of a cereal grain (мука)",
+        "example": "Can you use 'flour' in a sentence?",
+        "see_also": [
+            "floury"
+        ]
+    },
+    {
+        "word": "Fresh",
+        "level": "A2",
+        "definition": "Recently made, produced, or harvested (свежий)",
+        "example": "Fresh bread",
+        "see_also": [
+            "freshness"
+        ]
+    },
+    {
+        "word": "Front",
+        "level": "A2",
+        "definition": "The side that is forward or prominent (перед)",
+        "example": "He put up a bold front",
+        "see_also": [
+            "frontal"
+        ]
+    },
+    {
+        "word": "Fruit",
+        "level": "A2",
+        "definition": "The ripened reproductive body of a seed plant (фрукт)",
+        "example": "He lived long enough to see the fruit of his policies",
+        "see_also": [
+            "fruity",
+            "fruiterer",
+            "fructify",
+            "fruitlet"
+        ]
+    },
+    {
+        "word": "Funny",
+        "level": "A2",
+        "definition": "An account of an amusing incident (usually with a punch line) (смешной)",
+        "example": "She told a funny story"
+    },
+    {
+        "word": "Ghost",
+        "level": "A2",
+        "definition": "A mental representation of some haunting experience (призрак)",
+        "example": "He looked like he had seen a ghost",
+        "see_also": [
+            "spook"
+        ]
+    },
+    {
+        "word": "Giant",
+        "level": "A2",
+        "definition": "Any creature of exceptional size (гигантский)",
+        "example": "Walton built a retail giant",
+        "see_also": [
+            "gigantic"
+        ]
+    },
+    {
+        "word": "Absent",
+        "level": "B1",
+        "definition": "Go away or leave",
+        "example": "He absented himself",
+        "see_also": [
+            "absentee",
+            "absence"
+        ]
+    },
+    {
+        "word": "Absorb",
+        "level": "B1",
+        "definition": "Become imbued",
+        "example": "The liquids, light, and gases absorb",
+        "see_also": [
+            "absorbent",
+            "absorptive",
+            "absorption",
+            "absorbate",
+            "absorber"
+        ]
+    },
+    {
+        "word": "Accent",
+        "level": "B1",
+        "definition": "Distinctive manner of oral expression",
+        "example": "He couldn't suppress his contemptuous accent",
+        "see_also": [
+            "accentuate"
+        ]
+    },
+    {
+        "word": "Admire",
+        "level": "B1",
+        "definition": "Feel admiration for",
+        "example": "Can you use 'admire' in a sentence?",
+        "see_also": [
+            "admirer",
+            "admiration"
+        ]
+    },
+    {
+        "word": "Advise",
+        "level": "B1",
+        "definition": "Give advice to",
+        "example": "The teacher counsels troubled students",
+        "see_also": [
+            "advisement",
+            "counselling",
+            "advisable",
+            "advisory",
+            "counsel",
+            "counselor",
+            "advisee",
+            "counsellor",
+            "counseling",
+            "advisor",
+            "adviser"
+        ]
+    },
+    {
+        "word": "Agenda",
+        "level": "B1",
+        "definition": "A temporally organized plan for matters to be attended to",
+        "example": "Can you use 'agenda' in a sentence?",
+        "see_also": [
+            "schedule"
+        ]
+    },
+    {
+        "word": "Alert",
+        "level": "B1",
+        "definition": "Condition of heightened watchfulness or preparation for action",
+        "example": "Bombers were put on alert during the crisis"
+    },
+    {
+        "word": "Always",
+        "level": "B1",
+        "definition": "At all times; all the time and on every occasion",
+        "example": "I will always be there to help you"
+    },
+    {
+        "word": "Amaze",
+        "level": "B1",
+        "definition": "Affect with wonder",
+        "example": "Your ability to speak six languages amazes me!",
+        "see_also": [
+            "amazement",
+            "astonishment"
+        ]
+    },
+    {
+        "word": "Ask",
+        "level": "B1",
+        "definition": "Inquire about",
+        "example": "I asked about their special today",
+        "see_also": [
+            "enquirer",
+            "enquiry",
+            "inquiring",
+            "asker",
+            "inquirer",
+            "inquiry"
+        ]
+    },
+    {
+        "word": "Asset",
+        "level": "B1",
+        "definition": "A useful or valuable quality",
+        "example": "Can you use 'asset' in a sentence?"
+    },
+    {
+        "word": "Awful",
+        "level": "B1",
+        "definition": "Exceptionally bad or displeasing",
+        "example": "An awful voice",
+        "see_also": [
+            "awfulness",
+            "terribleness",
+            "dreadfulness"
+        ]
+    },
+    {
+        "word": "Back",
+        "level": "B1",
+        "definition": "The posterior part of a human (or animal) body from the neck to the end of the spine",
+        "example": "His back was nicely tanned",
+        "see_also": [
+            "dorsal"
+        ]
+    },
+    {
+        "word": "Appoint",
+        "level": "B2",
+        "definition": "Create and charge with a task or function",
+        "example": "Nominate a committee",
+        "see_also": [
+            "appointive",
+            "appointee",
+            "nomination",
+            "nominative",
+            "naming"
+        ]
+    },
+    {
+        "word": "Approve",
+        "level": "B2",
+        "definition": "Give sanction to",
+        "example": "I approve of his educational policies",
+        "see_also": [
+            "ok",
+            "approbative",
+            "okay",
+            "approver",
+            "approbation",
+            "sanction",
+            "approval"
+        ]
+    },
+    {
+        "word": "Awful",
+        "level": "B2",
+        "definition": "Exceptionally bad or displeasing",
+        "example": "An awful voice",
+        "see_also": [
+            "awfulness",
+            "terribleness",
+            "dreadfulness"
+        ]
+    },
+    {
+        "word": "Balloon",
+        "level": "B2",
+        "definition": "Large tough nonrigid bag filled with gas or heated air",
+        "example": "The sails ballooned",
+        "see_also": [
+            "balloonist"
+        ]
+    },
+    {
+        "word": "Banana",
+        "level": "B2",
+        "definition": "Any of several tropical and subtropical treelike herbs of the genus musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits",
+        "example": "Can you use 'banana' in a sentence?"
+    },
+    {
+        "word": "Bar",
+        "level": "B2",
+        "definition": "A room or establishment where alcoholic drinks are served over a counter",
+        "example": "He drowned his sorrows in whiskey at the bar"
+    },
+    {
+        "word": "Bare",
+        "level": "B2",
+        "definition": "Make public",
+        "example": "She aired her opinions on welfare",
+        "see_also": [
+            "publicizing",
+            "publiciser",
+            "publicizer"
+        ]
+    },
+    {
+        "word": "Base",
+        "level": "B2",
+        "definition": "Installation from which a military force initiates operations",
+        "example": "The attack wiped out our forward bases"
+    },
+    {
+        "word": "Basic",
+        "level": "B2",
+        "definition": "A popular programming language that is relatively easy to learn; an acronym for beginner's all-purpose symbolic instruction code; no longer in general use",
+        "example": "A basic fact"
+    },
+    {
+        "word": "Basis",
+        "level": "B2",
+        "definition": "A relation that provides the foundation for something",
+        "example": "He worked on an interim basis"
+    },
+    {
+        "word": "Basket",
+        "level": "B2",
+        "definition": "A container that is usually woven and has handles",
+        "example": "Can you use 'basket' in a sentence?"
+    },
+    {
+        "word": "Battle",
+        "level": "B2",
+        "definition": "A hostile meeting of opposing military forces in the course of a war",
+        "example": "Grant won a decisive victory in the battle of chickamauga",
+        "see_also": [
+            "engage",
+            "fight"
+        ]
+    },
+    {
+        "word": "Beach",
+        "level": "B2",
+        "definition": "An area of sand sloping down to the water of a sea or lake",
+        "example": "Can you use 'beach' in a sentence?"
+    },
+    {
+        "word": "Beauty",
+        "level": "B2",
+        "definition": "The qualities that give pleasure to the senses",
+        "example": "His roses were beauties",
+        "see_also": [
+            "beautify",
+            "beautician",
+            "beauteous"
+        ]
+    },
+    {
+        "word": "Become",
+        "level": "B2",
+        "definition": "Enter or assume a certain state or condition",
+        "example": "He became annoyed when he heard the bad news"
+    },
+    {
+        "word": "Adhere",
+        "level": "C1",
+        "definition": "Be compatible or in accordance with",
+        "example": "You must adhere to the rules"
+    },
+    {
+        "word": "Adverse",
+        "level": "C1",
+        "definition": "Contrary to your interests or welfare",
+        "example": "Adverse circumstances",
+        "see_also": [
+            "inauspiciousness",
+            "adversity"
+        ]
+    },
+    {
+        "word": "Affable",
+        "level": "C1",
+        "definition": "Diffusing warmth and friendliness",
+        "example": "An affable smile",
+        "see_also": [
+            "amity",
+            "amiability",
+            "affability",
+            "geniality",
+            "cordiality",
+            "affableness"
+        ]
+    },
+    {
+        "word": "Agitate",
+        "level": "C1",
+        "definition": "Try to stir up public opinion",
+        "example": "The liberal party pushed for reforms",
+        "see_also": [
+            "fomenter",
+            "agitator",
+            "fomentation"
+        ]
+    },
+    {
+        "word": "Allure",
+        "level": "C1",
+        "definition": "The power to entice or attract through personal charm",
+        "example": "We were tempted by the delicious-looking food",
+        "see_also": [
+            "tempting"
+        ]
+    },
+    {
+        "word": "Ambivalent",
+        "level": "C1",
+        "definition": "Uncertain or unable to decide about what course to follow",
+        "example": "Was ambivalent about having children",
+        "see_also": [
+            "ambivalence"
+        ]
+    },
+    {
+        "word": "Anomalous",
+        "level": "C1",
+        "definition": "Deviating from the general or common order or type",
+        "example": "Advanced forms of life may be anomalous in the universe",
+        "see_also": [
+            "anomalousness",
+            "anomaly"
+        ]
+    },
+    {
+        "word": "Apathy",
+        "level": "C1",
+        "definition": "An absence of emotion or enthusiasm",
+        "example": "Can you use 'apathy' in a sentence?",
+        "see_also": [
+            "apathetic"
+        ]
+    },
+    {
+        "word": "Appease",
+        "level": "C1",
+        "definition": "Cause to be more favorably inclined; gain the good will of",
+        "example": "She managed to mollify the angry customer",
+        "see_also": [
+            "conciliation",
+            "peace",
+            "pacification",
+            "pacifier",
+            "conciliative",
+            "placative",
+            "placation",
+            "placatory",
+            "mollification",
+            "appeasable",
+            "conciliator"
+        ]
+    },
+    {
+        "word": "Appraise",
+        "level": "C1",
+        "definition": "Evaluate or estimate the nature, quality, ability, extent, or significance of",
+        "example": "I will have the family jewels appraised by a professional",
+        "see_also": [
+            "assessment",
+            "measure",
+            "appraisal",
+            "evaluator",
+            "evaluation",
+            "evaluative",
+            "valuator",
+            "appraiser",
+            "valuation",
+            "assessor",
+            "valuer",
+            "assessable",
+            "value"
+        ]
+    },
+    {
+        "word": "Assent",
+        "level": "C1",
+        "definition": "Agreement with a statement or proposal to do something",
+        "example": "He gave his assent eagerly",
+        "see_also": [
+            "acquiescent",
+            "acquiesce"
+        ]
+    },
+    {
+        "word": "Assert",
+        "level": "C1",
+        "definition": "State categorically",
+        "example": "Before god i swear i am innocent",
+        "see_also": [
+            "assertion",
+            "assertable",
+            "asseveration",
+            "asseverator"
+        ]
+    },
+    {
+        "word": "Autonomy",
+        "level": "C1",
+        "definition": "Immunity from arbitrary exercise of authority: political independence",
+        "example": "Can you use 'autonomy' in a sentence?",
+        "see_also": [
+            "autonomous",
+            "liberate"
+        ]
+    },
+    {
+        "word": "Averse",
+        "level": "C1",
+        "definition": "(usually followed by `to') strongly opposed",
+        "example": "Averse to taking risks",
+        "see_also": [
+            "antipathy"
+        ]
+    },
+    {
+        "word": "Aberrant",
+        "level": "C2",
+        "definition": "One whose behavior departs substantially from the norm of a group",
+        "example": "Aberrant behavior",
+        "see_also": [
+            "aberrate"
+        ]
+    },
+    {
+        "word": "Abhor",
+        "level": "C2",
+        "definition": "Find repugnant",
+        "example": "She abhors cats",
+        "see_also": [
+            "loathing",
+            "execration",
+            "abhorrent",
+            "abhorrence",
+            "abominator",
+            "abomination",
+            "abominable",
+            "abhorrer",
+            "loather"
+        ]
+    },
+    {
+        "word": "Abrogate",
+        "level": "C2",
+        "definition": "Revoke formally",
+        "example": "Can you use 'abrogate' in a sentence?",
+        "see_also": [
+            "abrogation",
+            "abrogator"
+        ]
+    },
+    {
+        "word": "Absolve",
+        "level": "C2",
+        "definition": "Grant remission of a sin to",
+        "example": "The priest absolved him and told him to say ten hail mary's",
+        "see_also": [
+            "absolver",
+            "absolution",
+            "absolvitory"
+        ]
+    },
+    {
+        "word": "Abstain",
+        "level": "C2",
+        "definition": "Refrain from voting",
+        "example": "I abstain from alcohol"
+    },
+    {
+        "word": "Accolade",
+        "level": "C2",
+        "definition": "A tangible symbol signifying approval or distinction",
+        "example": "An award for bravery",
+        "see_also": [
+            "honor",
+            "honour",
+            "award",
+            "honorary"
+        ]
+    },
+    {
+        "word": "Acerbic",
+        "level": "C2",
+        "definition": "Sour or bitter in taste",
+        "example": "An acerbic tone piercing otherwise flowery prose",
+        "see_also": [
+            "astringence",
+            "acerbity",
+            "astringency"
+        ]
+    },
+    {
+        "word": "Acrimony",
+        "level": "C2",
+        "definition": "A rough and bitter manner",
+        "example": "Can you use 'acrimony' in a sentence?",
+        "see_also": [
+            "bitter",
+            "acrimonious",
+            "tart",
+            "jaundice",
+            "acerbic",
+            "acerbate"
+        ]
+    },
+    {
+        "word": "Adroit",
+        "level": "C2",
+        "definition": "Quick or skillful or adept in action or thought",
+        "example": "An exceptionally adroit pianist",
+        "see_also": [
+            "adroitness"
+        ]
+    },
+    {
+        "word": "Adulation",
+        "level": "C2",
+        "definition": "Servile flattery; exaggerated and hypocritical praise",
+        "example": "Can you use 'adulation' in a sentence?"
+    },
+    {
+        "word": "Aesthetic",
+        "level": "C2",
+        "definition": "(philosophy) a philosophical theory as to what is beautiful",
+        "example": "He despised the esthetic of minimalism"
+    },
+    {
+        "word": "Affable",
+        "level": "C2",
+        "definition": "Diffusing warmth and friendliness",
+        "example": "An affable smile",
+        "see_also": [
+            "amity",
+            "amiability",
+            "affability",
+            "geniality",
+            "cordiality",
+            "affableness"
+        ]
+    },
+    {
+        "word": "Alchemy",
+        "level": "C2",
+        "definition": "The way two individuals relate to each other",
+        "example": "A mysterious alchemy brought them together"
+    },
+    {
+        "word": "Amalgam",
+        "level": "C2",
+        "definition": "A combination or blend of diverse things",
+        "example": "His theory is an amalgam of earlier ideas",
+        "see_also": [
+            "amalgamate"
+        ]
+    },
+    {
+        "word": "Anomaly",
+        "level": "C2",
+        "definition": "Deviation from the normal or common order or form or rule",
+        "example": "Can you use 'anomaly' in a sentence?",
+        "see_also": [
+            "anomalous",
+            "anomalist"
+        ]
+    },
+    {
+        "word": "Antipathy",
+        "level": "C2",
+        "definition": "A feeling of intense dislike",
+        "example": "Cats were his greatest antipathy",
+        "see_also": [
+            "antipathetic",
+            "antipathetical"
+        ]
+    },
+    {
+        "word": "Arable",
+        "level": "C2",
+        "definition": "(of farmland) capable of being farmed productively",
+        "example": "Can you use 'arable' in a sentence?",
+        "see_also": [
+            "arability"
+        ]
+    },
+    {
+        "word": "Arduous",
+        "level": "C2",
+        "definition": "Characterized by effort to the point of exhaustion; especially physical effort",
+        "example": "Worked their arduous way up the mining valley",
+        "see_also": [
+            "toilsomeness",
+            "hardness",
+            "operoseness",
+            "heaviness",
+            "laboriousness",
+            "labor",
+            "arduousness"
+        ]
+    },
+    {
+        "word": "Artifice",
+        "level": "C2",
+        "definition": "A deceptive maneuver (especially to avoid capture)",
+        "example": "Can you use 'artifice' in a sentence?"
+    },
+    {
+        "word": "Assuage",
+        "level": "C2",
+        "definition": "Cause to be more favorably inclined; gain the good will of",
+        "example": "She managed to mollify the angry customer",
+        "see_also": [
+            "conciliation",
+            "peace",
+            "pacification",
+            "pacifier",
+            "conciliative",
+            "placative",
+            "placation",
+            "placatory",
+            "mollification",
+            "appeasable",
+            "conciliator"
+        ]
+    },
+    {
+        "word": "Astringent",
+        "level": "C2",
+        "definition": "A drug that causes contraction of body tissues and canals",
+        "example": "Astringent cosmetic lotions",
+        "see_also": [
+            "styptic",
+            "astringe"
+        ]
+    },
+    {
+        "word": "August",
+        "level": "C2",
+        "definition": "The month following july and preceding september",
+        "example": "Of august lineage"
     }
 ]

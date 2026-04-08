@@ -1,3 +1,494 @@
+
+import json
+import urllib.request
+import time
+import os
+import re
+import nltk
+
+try:
+    from nltk.corpus import wordnet as wn
+    wn.synsets('dog')
+except LookupError:
+    nltk.download('wordnet', quiet=True)
+    from nltk.corpus import wordnet as wn
+
+new_words = {
+    "A1": [
+        "ant",
+        "bat",
+        "bus",
+        "cup",
+        "dance",
+        "family",
+        "fun",
+        "goat",
+        "happy",
+        "hot",
+        "igloo",
+        "jacket",
+        "jump",
+        "kangaroo",
+        "lamp",
+        "log",
+        "map",
+        "mat",
+        "name",
+        "nest",
+        "net",
+        "open",
+        "paint",
+        "quiet",
+        "read",
+        "red",
+        "sad",
+        "snake",
+        "tiger",
+        "under",
+        "walk",
+        "year",
+        "zoo",
+        "arm",
+        "bad",
+        "blue",
+        "coat",
+        "cold",
+        "day",
+        "ear",
+        "fat",
+        "gold",
+        "hair",
+        "idea",
+        "job",
+        "kid",
+        "leg",
+        "mad",
+        "pie",
+        "sun"
+    ],
+    "A2": [
+        "above",
+        "afraid",
+        "alone",
+        "angry",
+        "awake",
+        "bacon",
+        "baker",
+        "beach",
+        "blanket",
+        "brave",
+        "brown",
+        "brush",
+        "candy",
+        "catch",
+        "cheap",
+        "clean",
+        "climb",
+        "cloud",
+        "coast",
+        "color",
+        "count",
+        "crazy",
+        "cross",
+        "dirty",
+        "dress",
+        "drink",
+        "drive",
+        "early",
+        "eight",
+        "enjoy",
+        "enter",
+        "every",
+        "extra",
+        "fancy",
+        "fault",
+        "fence",
+        "field",
+        "fight",
+        "final",
+        "first",
+        "flame",
+        "floor",
+        "flour",
+        "fresh",
+        "front",
+        "fruit",
+        "funny",
+        "ghost",
+        "giant",
+        "glass"
+    ],
+    "B1": [
+        "abandon",
+        "ability",
+        "absent",
+        "absorb",
+        "accent",
+        "accept",
+        "admire",
+        "admit",
+        "advice",
+        "advise",
+        "afford",
+        "agency",
+        "agenda",
+        "agree",
+        "alert",
+        "allow",
+        "alter",
+        "always",
+        "amaze",
+        "amount",
+        "amuse",
+        "anger",
+        "answer",
+        "appeal",
+        "appear",
+        "apple",
+        "argue",
+        "arise",
+        "arrest",
+        "arrive",
+        "art",
+        "ask",
+        "assess",
+        "asset",
+        "assist",
+        "assume",
+        "assure",
+        "attach",
+        "attack",
+        "attend",
+        "attract",
+        "author",
+        "avoid",
+        "award",
+        "aware",
+        "awful",
+        "baby",
+        "back",
+        "bag",
+        "bake"
+    ],
+    "B2": [
+        "analyze",
+        "anticipate",
+        "apparent",
+        "appeal",
+        "appear",
+        "apply",
+        "appoint",
+        "appreciate",
+        "approach",
+        "approve",
+        "argue",
+        "arise",
+        "arrange",
+        "arrest",
+        "arrive",
+        "assess",
+        "assign",
+        "assist",
+        "assume",
+        "assure",
+        "attach",
+        "attack",
+        "attain",
+        "attempt",
+        "attend",
+        "attract",
+        "avoid",
+        "award",
+        "aware",
+        "awful",
+        "balance",
+        "balloon",
+        "banana",
+        "band",
+        "bank",
+        "bar",
+        "bare",
+        "base",
+        "basic",
+        "basis",
+        "basket",
+        "bath",
+        "battle",
+        "beach",
+        "bear",
+        "beat",
+        "beauty",
+        "become",
+        "bed",
+        "beef"
+    ],
+    "C1": [
+        "acumen",
+        "adhere",
+        "adverse",
+        "affable",
+        "agitate",
+        "allure",
+        "ambivalent",
+        "amenable",
+        "anomalous",
+        "apathy",
+        "appease",
+        "appraise",
+        "arbitrary",
+        "archaic",
+        "articulate",
+        "ascertain",
+        "assent",
+        "assert",
+        "assimilate",
+        "astute",
+        "augment",
+        "austere",
+        "authentic",
+        "autonomy",
+        "averse",
+        "avert",
+        "avid",
+        "axiom",
+        "baffle",
+        "banal",
+        "barren",
+        "barrier",
+        "beguile",
+        "belligerent",
+        "benchmark",
+        "benevolent",
+        "benign",
+        "berate",
+        "bereft",
+        "beseech",
+        "bizarre",
+        "bland",
+        "blatant",
+        "bleak",
+        "blight",
+        "bolster",
+        "boycott",
+        "brazen",
+        "brevity",
+        "bucolic"
+    ],
+    "C2": [
+        "aberrant",
+        "abhor",
+        "abrogate",
+        "absolve",
+        "abstain",
+        "abstruse",
+        "accolade",
+        "acerbic",
+        "acrimony",
+        "acumen",
+        "adroit",
+        "adulation",
+        "aesthetic",
+        "affable",
+        "alacrity",
+        "alchemy",
+        "alleviate",
+        "alloy",
+        "amalgam",
+        "ameliorate",
+        "anachronism",
+        "anathema",
+        "ancillary",
+        "anomaly",
+        "antediluvian",
+        "antipathy",
+        "apocryphal",
+        "apotheosis",
+        "apposite",
+        "approbation",
+        "arable",
+        "arcane",
+        "archaic",
+        "arduous",
+        "arrogate",
+        "artifice",
+        "ascetic",
+        "asperity",
+        "aspersion",
+        "assiduous",
+        "assuage",
+        "astringent",
+        "audacious",
+        "august",
+        "auspicious",
+        "austere",
+        "avarice",
+        "aver",
+        "avuncular",
+        "axiom"
+    ]
+}
+
+new_a1_a2_trans = {
+    "ant": "муравей",
+    "bat": "летучая мышь",
+    "bus": "автобус",
+    "cup": "чашка",
+    "dance": "танец",
+    "family": "семья",
+    "fun": "веселье",
+    "goat": "коза",
+    "happy": "счастливый",
+    "hot": "горячий",
+    "igloo": "иглу",
+    "jacket": "куртка",
+    "jump": "прыгать",
+    "kangaroo": "кенгуру",
+    "lamp": "лампа",
+    "log": "бревно",
+    "map": "карта",
+    "mat": "коврик",
+    "name": "имя",
+    "nest": "гнездо",
+    "net": "сеть",
+    "open": "открытый",
+    "paint": "рисовать",
+    "quiet": "тихий",
+    "read": "читать",
+    "red": "красный",
+    "sad": "грустный",
+    "snake": "змея",
+    "tiger": "тигр",
+    "under": "под",
+    "walk": "гулять",
+    "year": "год",
+    "zoo": "зоопарк",
+    "arm": "рука",
+    "bad": "плохой",
+    "blue": "синий",
+    "coat": "пальто",
+    "cold": "холодный",
+    "day": "день",
+    "ear": "ухо",
+    "fat": "толстый",
+    "gold": "золото",
+    "hair": "волосы",
+    "idea": "идея",
+    "job": "работа",
+    "kid": "ребенок",
+    "leg": "нога",
+    "mad": "сумасшедший",
+    "pie": "пирог",
+    "sun": "солнце",
+    "above": "над",
+    "afraid": "боящийся",
+    "alone": "один",
+    "angry": "сердитый",
+    "awake": "бодрствующий",
+    "bacon": "бекон",
+    "baker": "пекарь",
+    "beach": "пляж",
+    "blanket": "одеяло",
+    "brave": "смелый",
+    "brown": "коричневый",
+    "brush": "щетка",
+    "candy": "конфета",
+    "catch": "ловить",
+    "cheap": "дешевый",
+    "clean": "чистый",
+    "climb": "лезть",
+    "cloud": "облако",
+    "coast": "побережье",
+    "color": "цвет",
+    "count": "считать",
+    "crazy": "сумасшедший",
+    "cross": "пересекать",
+    "dirty": "грязный",
+    "dress": "платье",
+    "drink": "напиток",
+    "drive": "водить машину",
+    "early": "рано",
+    "eight": "восемь",
+    "enjoy": "наслаждаться",
+    "enter": "входить",
+    "every": "каждый",
+    "extra": "дополнительный",
+    "fancy": "фантазия",
+    "fault": "вина",
+    "fence": "забор",
+    "field": "поле",
+    "fight": "бой",
+    "final": "финал",
+    "first": "первый",
+    "flame": "пламя",
+    "floor": "пол",
+    "flour": "мука",
+    "fresh": "свежий",
+    "front": "перед",
+    "fruit": "фрукт",
+    "funny": "смешной",
+    "ghost": "призрак",
+    "giant": "гигантский",
+    "glass": "стекло"
+}
+
+def is_root_in_text(word, text):
+    stem = word.lower()
+    if len(stem) > 4 and stem.endswith('e'):
+        stem = stem[:-1]
+    elif len(stem) > 4 and stem.endswith('y'):
+        stem = stem[:-1] + 'i'
+    words_in_text = re.findall(r'\b\w+\b', text.lower())
+    for w in words_in_text:
+        if (w.startswith(stem) or stem.startswith(w)) and len(w) > 3:
+            return True
+        if w == word.lower():
+            return True
+    return False
+
+def get_wordnet_data(word, level):
+    definition = f"A {level} level English word."
+    example = None
+    see_also = set()
+    
+    synsets = wn.synsets(word)
+    valid_synsets = []
+    for s in synsets:
+        d = s.definition()
+        if not is_root_in_text(word, d):
+            valid_synsets.append(s)
+            
+    if not valid_synsets and synsets:
+        valid_synsets = synsets
+        
+    if valid_synsets:
+        best = valid_synsets[0]
+        definition = best.definition()
+        for s in valid_synsets:
+            exs = s.examples()
+            if exs:
+                for ex in exs:
+                    if word.lower() in ex.lower():
+                        example = ex
+                        break
+                if not example:
+                    example = exs[0]
+            if example:
+                break
+        for lemma in best.lemmas():
+            for drf in lemma.derivationally_related_forms():
+                related = drf.name().lower()
+                if related != word.lower() and related.isalpha():
+                    see_also.add(related)
+                    
+    definition = definition.capitalize()
+    if not example:
+        example = f"Can you use '{word}' in a sentence?"
+    else:
+        example = example.capitalize()
+        
+    return definition, example, list(see_also)
+
+# Original dictionary data and logic...
 import json
 import urllib.request
 import time
@@ -168,19 +659,26 @@ def get_word_data(word, level):
     return definition, fallback
 
 def main():
+    words_file = 'words.json'
     all_words_data = []
+    
+    if os.path.exists(words_file):
+        with open(words_file, 'r', encoding='utf-8') as f:
+            all_words_data = json.load(f)
+            
+    existing_words = {entry['word'].lower() for entry in all_words_data}
+    added_count = 0
     total = sum(len(words) for words in levels_words.values())
     processed = 0
     
     for level, words in levels_words.items():
         for word in words:
+            if word.lower() in existing_words:
+                continue
             definition, example = get_word_data(word, level)
-            
-            # Add Russian translation for A1 and A2 level words
             if level in ["A1", "A2"] and word.lower() in a1_a2_translations:
                 ru_trans = a1_a2_translations[word.lower()]
                 definition = f"{definition} ({ru_trans})"
-                
             all_words_data.append({
                 "word": word.capitalize(),
                 "level": level,
@@ -189,14 +687,37 @@ def main():
             })
             processed += 1
             if processed % 20 == 0:
-                print(f"Processed {processed}/{total} words...")
-            # Small delay to respect rate limits
-            time.sleep(0.2)
-            
-    with open('words.json', 'w', encoding='utf-8') as f:
+                print(f"Processed original {processed}/{total} words...")
+            time.sleep(0.1)
+
+    existing_words = {entry['word'].lower() for entry in all_words_data}
+
+    for level, words in new_words.items():
+        for word in words:
+            if word.lower() in existing_words:
+                continue
+            definition, example, see_also = get_wordnet_data(word, level)
+            if level in ["A1", "A2"] and word.lower() in new_a1_a2_trans:
+                ru_trans = new_a1_a2_trans[word.lower()]
+                definition = f"{definition} ({ru_trans})"
+            entry = {
+                "word": word.capitalize(),
+                "level": level,
+                "definition": definition,
+                "example": example
+            }
+            if see_also:
+                entry["see_also"] = see_also
+            all_words_data.append(entry)
+            added_count += 1
+            if added_count % 10 == 0:
+                print(f"Added {added_count} new NLTK words...")
+            time.sleep(0.01)
+
+    with open(words_file, 'w', encoding='utf-8') as f:
         json.dump(all_words_data, f, indent=4, ensure_ascii=False)
         
-    print(f"Successfully saved {len(all_words_data)} words to words.json!")
+    print(f"Successfully saved {len(all_words_data)} words to words.json! Added {added_count} new rule-based words.")
 
 if __name__ == "__main__":
     main()

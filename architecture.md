@@ -50,3 +50,6 @@ No secrets should ever be hardcoded. They are read from environment variables:
 
 ### 6. Development Practices
 - **`words.json` Updates:** New commits shouldn't rewrite `words.json` (i.e., do not run `generate_words.py` on every commit) unless it is explicitly a part of the requirements for that update.
+- **Dictionary Rules:** For generating new definitions, `generate_words.py` utilizes the Python `nltk` (WordNet) library. This was integrated specifically to enforce two strict rules:
+  1. Preventing root words from being present inside their own definitions.
+  2. Computing and attaching a `see_also` property mapping semantically derived representations (e.g. nouns, adjectives).

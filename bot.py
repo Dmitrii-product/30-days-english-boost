@@ -82,6 +82,11 @@ async def send_single_word(context: ContextTypes.DEFAULT_TYPE, chat_id: int, lev
         f"🌟 *{level} Word of the Day: {entry['word']}*\n\n"
         f"📚 *Definition:* {entry['definition']}\n\n"
         f"📝 *Example:* _{entry['example']}_\n\n"
+    )
+    if "see_also" in entry and entry["see_also"]:
+        message += f"🔗 *See Also:* {', '.join(entry['see_also'])}\n\n"
+        
+    message += (
         f"--- \n"
         f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence today?"
     )
@@ -161,6 +166,11 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE):
             f"🌟 *{level} Word of the Day: {entry['word']}*\n\n"
             f"📚 *Definition:* {entry['definition']}\n\n"
             f"📝 *Example:* _{entry['example']}_\n\n"
+        )
+        if "see_also" in entry and entry["see_also"]:
+            message += f"🔗 *See Also:* {', '.join(entry['see_also'])}\n\n"
+            
+        message += (
             f"--- \n"
             f"💪 *Stress Test:* Can you use '{entry['word'].lower()}' in a sentence today?"
         )
