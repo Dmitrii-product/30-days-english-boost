@@ -230,6 +230,14 @@ async def goldenlist_command(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await send_golden_list(context, user_id)
 
 async def send_all_golden_lists(context: ContextTypes.DEFAULT_TYPE):
+    # Ensure it only runs every 14 days globally, using a fixed epoch date
+    # The epoch is set to 2026-04-08 (the deployment day). 
+    # It will run exactly every 14 days from this date.
+    epoch = datetime.date(2026, 4, 8)
+    today = datetime.datetime.now(datetime.timezone.utc).date()
+    if (today - epoch).days % 14 != 0:
+        return
+
     users = db.get_all_users()
     for chat_id, _ in users:
         await send_golden_list(context, chat_id)
@@ -267,9 +275,9 @@ def main():
             t = datetime.time(hour=6, minute=0, tzinfo=datetime.timezone.utc)
             application.job_queue.run_daily(send_daily_words, time=t)
             
-            # Schedule bi-weekly golden list
+            # Schedule daily check for the bi-weekly golden list
             t_golden = datetime.time(hour=10, minute=0, tzinfo=datetime.timezone.utc)
-            application.job_queue.run_repeating(send_all_golden_lists, interval=datetime.timedelta(days=14), first=t_golden)
+            application.job_queue.run_daily(send_all_golden_lists, time=t_golden)
             
             print("Bot is starting. Press Ctrl+C to stop.")
             retry_delay = 5  # Reset delay on successful start
