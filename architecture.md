@@ -45,7 +45,8 @@
 No secrets should ever be hardcoded. They are read from environment variables:
 - `TOKEN`
 - `SUPABASE_URL`
-- `SUPABASE_KEY`
+- `SUPABASE_SERVICE_ROLE_KEY` (preferred, server-side only)
+- `SUPABASE_KEY` (legacy fallback for backward compatibility)
 - `ENCRYPTION_KEY`
 
 ### 6. Development Practices
