@@ -1,16 +1,23 @@
 import os
 from typing import Optional, List, Tuple
 from supabase import create_client, Client
-from encryption import encrypt_id, decrypt_id, hash_id
+from encryption import encrypt_id, decrypt_id, hash_id, ensure_encryption_ready
 from dotenv import load_dotenv
 
 load_dotenv()
 
 url = os.environ.get("SUPABASE_URL")
 key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or os.environ.get("SUPABASE_KEY")
+if key:
+    key = key.strip()
 
 supabase: Optional[Client] = None
-if url and key:
+if key and key.startswith("sb_publishable_"):
+    print(
+        "Error: publishable Supabase key detected. "
+        "Use SUPABASE_SERVICE_ROLE_KEY for backend bot access."
+    )
+elif url and key:
     supabase = create_client(url, key)
 else:
     print(
@@ -19,7 +26,7 @@ else:
     )
 
 def init_db():
-    pass
+    ensure_encryption_ready()
 
 def add_or_update_user(chat_id: int, level: str):
     if not supabase: return
