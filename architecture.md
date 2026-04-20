@@ -10,6 +10,7 @@
     - `id_hash` (Text, Primary Key) - A deterministic SHA-256 hash of the Telegram ID.
     - `encrypted_id` (Text) - The user's Fernet-encrypted Telegram ID.
     - `level` (Text) - The chosen vocabulary level (A1, A2, B1, B2, C1, C2).
+    - `last_golden_list_at` (Date) - The date when the last bi-weekly Golden List was sent to this user.
 
   - Table: `vocabulary`
   - Columns:
