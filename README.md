@@ -1,4 +1,4 @@
-# 30-days-enghlish-boost
+# 30-days-english-boost
 Telegram bot which sent a new english word along with a hook question daily
 
 ## Supabase Key Note
